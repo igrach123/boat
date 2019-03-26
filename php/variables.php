@@ -1,4 +1,5 @@
 <?php 
-    $the_sitetitle = 'BikeTour Premantura';
+    $the_sitetitle = 'Boat Excursions Tonka';
+    $the_siteslogan = 'Boat Excursions Tonka';
 ?>
 

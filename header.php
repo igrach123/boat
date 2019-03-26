@@ -20,7 +20,8 @@
                                 
                        </ul>
                        <ul class=" nav navbar-nav navbar-right">
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#location" class="scroll">LOKACIJA</a></li> 
+                       <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#location" class="scroll">NAJAM PLOVILA</a></li> 
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#location" class="scroll">TAXI BOAT</a></li> 
                             
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">KONTAKT</a></li>
                             <li id="lang-id">
@@ -40,19 +41,19 @@
                   </div><!-- /.container-->
                 </nav>
 
-         <h1 class="visible-xs">BIKE TOUR<br>
-         <span class="small">PREMANUTRA </span></h1>
+         <h1 class="visible-xs">BOAT EXCURSIONS<br>
+         <span class="small">TONKA </span></h1>
 
          <!--video backgorund-->
            <div class="overlay hidden-xs"></div>
               <video class="hidden-xs hidden-sm" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="video/kamenjak.mp4" type="video/mp4">
+                <source src="video/sunset.mp4" type="video/mp4">
               </video>
               <div class="container">
                 <div class="text-center align-items-center">
                  
-                    <h1 class="">BIKE TOUR <br> <br>     
-                    <span class="small-premanutra">PREMANUTRA </span></h1>
+                    <h1 class="hidden-xs">BOAT EXCURSIONS <br> <br>     
+                    <span class="small-premanutra hidden-xs">TONKA </span></h1> 
 
                     <div class="animated-arrow-down"> 
                         <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'>

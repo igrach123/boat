@@ -10,6 +10,7 @@
  padding:10px;
  border-radius: 5px;
  transition: all 0.3s ease-in-out;
+ position: relative;
 
 
     h3{
@@ -17,10 +18,10 @@
         
     }
 }
-.t-1{
-       
+// sunset
+.t-1{    
         
-        background-image: url('../img/izleti/poludnevni-m.jpg');
+        background-image: url('../img/izleti/sunset.jpg');
         background-position: center center;
         background-color: grey;
         background-size: cover;
@@ -41,24 +42,18 @@
     transform: scale(1.05);
     transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s;
 }
-.t-2{
-   
+// island
+.t-2{ 
     
-    background-image: url('../img/izleti/cjelodnevni-m.jpg');
+    background-image: url('../img/izleti/island.jpg');
     background-color: grey;
     background-size: cover;
 }
+// lim
 .t-3{
-   
+
     
-    background-image: url('../img/izleti/urbana-m.jpg');
-    background-color: grey;
-    background-size: cover;
-}
-.t-4{
-   
-    
-    background-image: url('../img/izleti/enduro-m.jpg');
+    background-image: url('../img/izleti/lim.jpg');
     background-color: grey;
     background-size: cover;
 }
