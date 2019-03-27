@@ -19,7 +19,7 @@
                                     <input placeholder="Email" type="email" class="form-control" id="email" name="email" required maxlength="50">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Poruka ovdje" maxlength="6000" rows="7"></textarea>
+                                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Poruka ovdje" maxlength="6000" rows="5"></textarea>
                                 </div>
                                 <div class="row" style="margin-bottom:30px;">
                                     <div class="col-sm-5">
@@ -32,7 +32,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-lg btn-info" id="btnContactUs">POŠALJI</button>
+                                    <button type="submit" class="btn  btn-default" id="btnContactUs">POŠALJI</button>
                                 </div>
                                 
                             </form>
@@ -43,12 +43,18 @@
                         <h4 class="text-center">
                             KONTAKT
                         </h4>
-                        <ul class="list-unstyled"> 
-                                    <li><h5>R.T.O. - Boris Ivančić </h5></li>   
-                                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:+385 (0)91 512 36 46"> +385 (0)91 512 36 46</a></li>
-                                     <li><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>  
+
+                        <ul class="list-unstyled contact-list text-left"> 
+                                    <li><h5> <span class="fa fa-map-marker"></span>  ADRESA UKRCAJA</h5></li>  
+                                    <li>Parking Vladibora - Rovinj sjever</li> 
+                                    <hr>
+                                    <li><h5><span class="fa fa-phone"></span> TEL & <span class="fa fa-whatsapp"></span> WHATSAPP</h5> </li>
+                                    <li class="text-muted"> <a href="tel:+385 (0)98441140"> +385 (0)98 441 140</a></li>
+                                    <hr>
+                                    <li><h5><span class="fa fa-envelope-o"></span> EMAIL</h5></li>
+                                     <li>
                                         <script TYPE="text/javascript">
-                                        emailE=('bivancic@' + 'yahoo.com')
+                                        emailE=('boatexcursionstonka@' + 'gmail.com')
                                         document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')            
                                             </script>
 
@@ -57,9 +63,10 @@
                                                          Please enable JavaScript to contact me.</em>
                                             </noscript>
                                      </li>
-                                  <li>Zoranićeva 17, Pula</li>
-                                  <li> OIB: 46116579192  </li>
-                                  <li>MB Obrta: 90645405 </li>   
+                                     <hr>
+                                     <li><h5>PRATITE NAS</h5></li>
+                                     <li> <a href="https://www.facebook.com/boatexcursionsTonka/" target="_blank"><span class="fa fa-facebook-f"></span> boatexcursionsTonka </a> | <a href="https://www.instagram.com/boatexcursionstonka/?hl=en" target="_blank"><span class="fa fa-instagram"></span> boatexcursionsTonka </a> </li>
+
                         </ul>                              
                     </div>
             </div>
@@ -69,7 +76,7 @@
                    
                     
                             <div class="footer-bottom-left"><a href="index.php" target="_self"> 
-                                    <img src="img/ws-logo-big-white-font.png" class="img-responsive" alt="ws-logo"></a>
+                                    <img src="img/logo-no-bg.png" class="img-responsive" alt="Boat Excursions Tonka logo"></a>
                             </div>
                              <div class="footer-bottom-center">
                                     <p class="text-center"><?php echo "$the_sitetitle"; ?>  &copy;  <span class="hidden-sm"> <?php echo date("Y"); ?> </span> </p>
@@ -79,6 +86,5 @@
                              </div>
                 </div>
             </div> <!-- end of container -->
-        
     </footer>
         
