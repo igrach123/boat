@@ -1,5 +1,5 @@
 <!-- GALERIJA SLIKA -->
-<section class="container-fluid" id="bike-cjenik">
+<section class="container-fluid" id="galery">
     <div class="container"> 
         <div class="row">
             <div class="col-sm-12" id="bike-gallery">
@@ -39,9 +39,6 @@
                         
             </div>
         </div>
-    </div>
-    <div class="container cjenik-btn">
-        <a href="#cjenik-bikes" class="btn btn-block btn-primary cjenik-btn" data-toggle="modal" role="button" data-target="#cjenik-bikes">CJENIK</a>
     </div>
 </section>
 <div class="clear-fix"></div>

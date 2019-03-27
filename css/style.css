@@ -989,17 +989,6 @@ body {
 .site-wrapper {
   width: 100%; }
 
-.white-bg {
-  color: #FFFFFF;
-  background: #078d8d;
-  background: -moz-linear-gradient(top, #078d8d 0%, #066a6a 45%, #032a6d 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #078d8d), color-stop(45%, #066a6a), color-stop(100%, #032a6d));
-  background: -webkit-linear-gradient(top, #078d8d 0%, #066a6a 45%, #032a6d 100%);
-  background: -o-linear-gradient(top, #078d8d 0%, #066a6a 45%, #032a6d 100%);
-  background: -ms-linear-gradient(top, #078d8d 0%, #066a6a 45%, #032a6d 100%);
-  background: linear-gradient(to bottom, #078d8d 0%, #066a6a 45%, #032a6d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#078d8d', endColorstr='#032a6d', GradientType=0 ); }
-
 .pb-10 {
   padding-bottom: 10px; }
 
@@ -1567,8 +1556,10 @@ header {
     color: #FFFFFF;
     padding: 10px;
     border-radius: 5px;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out;
+    min-height: 400px; }
     #services .t-1 h3, #services .t-2 h3, #services .t-3 h3, #services .t-4 h3 {
+      font-family: "Abagil Fontface" ,sans-serif;
       color: #FFFFFF; }
   #services .t-1 {
     background-image: url("../img/izleti/sunset.jpg");
@@ -1904,28 +1895,22 @@ header {
   margin: 0 auto;
   max-width: 1920px; }
 
-#bike-cjenik {
+#galery {
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); }
-  #bike-cjenik h3 {
+  background-color: #89e9f8;
+  background: linear-gradient(15deg, #000851 0%, #1CB5E0 100%); }
+  #galery h3 {
     text-align: center;
     color: #bbdefb; }
   @media only screen and (min-width: 320px) {
-    #bike-cjenik .cjenik-btn {
+    #galery .cjenik-btn {
       width: 100%;
       font-size: 2.5rem; } }
   @media only screen and (min-width: 480px) {
-    #bike-cjenik .cjenik-btn {
+    #galery .cjenik-btn {
       margin-left: 20%;
       width: 60%; } }
-
-#cjenik-bikes .modal-header h3 {
-  text-align: center;
-  font-size: 3rem; }
-#cjenik-bikes h4 {
-  font-size: 2.4rem;
-  padding: 30px; }
 
 #testimonial-slider {
   background-color: #FFFFFF;

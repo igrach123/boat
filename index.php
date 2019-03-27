@@ -81,11 +81,11 @@
         <?php include "php/promo.php"?>
         <?php include "php/onama.php"?>
         
-        <?php include "php/bike-cjenik.php"?>
+        <?php include "php/galery.php"?>
         <!-- modal -->
 
         <?php include "php/cjenik-bikes.php"?>
-        
+
         <!-- unutra je samo div koji nesto zatvara -->
         <?php include "php/partner-slide.php" ?>  
   
