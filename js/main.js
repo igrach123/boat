@@ -4,6 +4,7 @@
 // @koala-prepend "jquery.matchHeight.js"
 // @koala-prepend "smooth-scroll.min.js"
 // @koala-prepend "echo.min.js"
+// @koala-prepend "vendor/wow.min.js"
 
 
 //image preloader
@@ -14,6 +15,10 @@ echo.init({
 });
 
 // echo.render(); is also available for non-scroll callbacks
+// wow reveal js
+new WOW().init();
+
+
 
 //match heoght group 1
 $(function() {
@@ -23,11 +28,11 @@ $(function() {
 //Owl Carousel 2
 $(document).ready(function(){
 $("#testimonial-slider").owlCarousel({
-items:5,
+items:3,
 responsiveClass:true,
-itemsDesktop:[1000,5],
-itemsDesktopSmall:[979,4],
-itemsTablet:[767,3],
+itemsDesktop:[1000,3],
+itemsDesktopSmall:[979,2],
+itemsTablet:[767,1],
 pagination:false,
 transitionStyle:"fade",
 navigation:true,

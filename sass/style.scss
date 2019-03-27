@@ -56,9 +56,8 @@ html{
 body{
     margin:0px 0px;
     padding: 0px 0px;
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background:$bg-white;  /* fallback for old browsers */
+   
     font-size: 16px;
     font-family: 'Open Sans', 'Helvetica' ,sans-serif;
     overflow-x: hidden;  
@@ -819,13 +818,12 @@ header{
 //****************SERVICES SECTION*******************//
 #services{
     padding-bottom: 80px;
-    background-color: rgb(248, 240, 240);
+    background-color:$bg-white;
     background-attachment: fixed;
     background-size: cover;
 
 
-    h2{color:$bg-grey-lighter;} 
-    h5{color:red;}
+    h2{color:$main-blue;} 
     .izleti-row{
         max-width: 1920px;
         margin: 0 auto;
@@ -1181,7 +1179,32 @@ h3{
     overflow: hidden;
     height: 400px;
 }
+// promo section
+#promo{
+    letter-spacing: 5px;
+    padding:40px 0 40px 0;
+    font-family: "Roboto",sans-serif;
+    .p1{
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+        font-weight: 900;
+    }
+    .p2{
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    .p1,.p2{
+        color: $bg-white;
+    }
+    background: $Vital-Ocean-gradinet;
+}
 
+// o nama
+#onama{
+    background-color:$bg-white;
+    margin: 0 auto;
+    max-width: 1920px;
+}
 //galerija+bike section
 #bike-cjenik{
     h3{
@@ -1227,7 +1250,6 @@ h3{
 #testimonial-slider{
     background-color:$bg-white;
     padding-top: 20px;
-    padding-bottom: 40px;
 }
 
 .testimonial{
@@ -1236,7 +1258,7 @@ h3{
     padding: 40px 20%;
 }
 .testimonial .pic{
-    width: 110px;
+    width: 50px;
     border-radius: none;
     overflow: hidden;
     margin: 0 auto;
@@ -1429,8 +1451,7 @@ h3{
 }
 //******************FOOTER SECTION *********************//
 
-
-footer{
+#footer{
 	
 	color: $bg-white;
     background: rgba(7,141,141,1);
@@ -1441,8 +1462,13 @@ footer{
     background: -ms-linear-gradient(top, rgba(7,141,141,1) 0%, rgba(6,106,106,1) 45%, rgba(3,42,109,1) 100%);
     background: linear-gradient(to bottom, rgba(7,141,141,1) 0%, rgba(6,106,106,1) 45%, rgba(3,42,109,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#078d8d', endColorstr='#032a6d', GradientType=0 );
+    .kontakti-wrapper{
+        max-width: 1920px;
+        margin:0 auto;
+    }
+    
 	h2{
-		color: #fff;
+		color:$bg-white;
 	}
 	h4{
 		color:$main-orange;

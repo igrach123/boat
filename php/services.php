@@ -7,7 +7,7 @@
 			<div class="row izleti-row">
 
 			<!-- sunset&dolphins -->
-				<div class="col-sm-4 col-5px service-wrap " >
+				<div class="col-sm-4 col-5px service-wrap  wow fadeInUp t-1-wrapper" >
 					<div class="t-1" data-mh="my-group">
 							
 						
@@ -23,9 +23,8 @@
 					</div>
 				</div>
 				<!-- island swimming -->
-				<div class="col-sm-4 col-5px service-wrap" >
+				<div class="col-sm-4 col-5px service-wrap wow fadeInUp t-2-wrapper" >
 					<div class="t-2" data-mh="my-group">
-					
 						<h3 class="title">KUPANJE NA OTOCIMA</h3>
 						<div class="overlay"></div>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa? Sequi, natus! Animi optio culpa, inventore adipisci numquam, veniam facere vel magnam ea delectus incidunt aliquid sunt facilis ex a?</p>
@@ -37,7 +36,7 @@
 					</div>
 				</div>
 				<!-- lim fjord -->
-				<div class="col-sm-4 col-5px service-wrap" >
+				<div class="col-sm-4 col-5px service-wrap wow fadeInUp t-3-wrapper" >
 					<div class="t-3" data-mh="my-group">
 						
 						<h3 class="title">LIM FJORD</h3>

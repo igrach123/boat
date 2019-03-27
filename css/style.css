@@ -980,12 +980,8 @@ html {
 body {
   margin: 0px 0px;
   padding: 0px 0px;
-  background: #1c92d2;
+  background: #FFFFFF;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f2fcfe, #1c92d2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: 16px;
   font-family: 'Open Sans', 'Helvetica' ,sans-serif;
   overflow-x: hidden; }
@@ -1547,13 +1543,11 @@ header {
 
 #services {
   padding-bottom: 80px;
-  background-color: #f8f0f0;
+  background-color: #FFFFFF;
   background-attachment: fixed;
   background-size: cover; }
   #services h2 {
-    color: #FAFAFA; }
-  #services h5 {
-    color: red; }
+    color: #0f3756; }
   #services .izleti-row {
     max-width: 1920px;
     margin: 0 auto; }
@@ -1565,13 +1559,15 @@ header {
     overflow: hidden;
     border-radius: 5px;
     position: relative; }
+  #services .t-1-wrapper, #services .t-2-wrapper, #services .t-3-wrapper.t-4-wrapper {
+    overflow: hidden;
+    position: relative; }
   #services .t-1, #services .t-2, #services .t-3, #services .t-4 {
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
     border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-    position: relative; }
+    transition: all 0.3s ease-in-out; }
     #services .t-1 h3, #services .t-2 h3, #services .t-3 h3, #services .t-4 h3 {
       color: #FFFFFF; }
   #services .t-1 {
@@ -1580,16 +1576,16 @@ header {
     background-color: grey;
     background-size: cover; }
   #services .t-1:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
   #services .t-2:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
   #services .t-3:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
   #services .t-4:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
   #services .t-2 {
     background-image: url("../img/izleti/island.jpg");
@@ -1888,6 +1884,26 @@ header {
   overflow: hidden;
   height: 400px; }
 
+#promo {
+  letter-spacing: 5px;
+  padding: 40px 0 40px 0;
+  font-family: "Roboto",sans-serif;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); }
+  #promo .p1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    font-weight: 900; }
+  #promo .p2 {
+    font-size: 1rem;
+    margin-top: 0px; }
+  #promo .p1, #promo .p2 {
+    color: #FFFFFF; }
+
+#onama {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  max-width: 1920px; }
+
 #bike-cjenik {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -1916,8 +1932,7 @@ header {
 
 #testimonial-slider {
   background-color: #FFFFFF;
-  padding-top: 20px;
-  padding-bottom: 40px; }
+  padding-top: 20px; }
 
 .testimonial {
   background-color: #FFFFFF;
@@ -1925,7 +1940,7 @@ header {
   padding: 40px 20%; }
 
 .testimonial .pic {
-  width: 110px;
+  width: 50px;
   border-radius: none;
   overflow: hidden;
   margin: 0 auto; }
@@ -2069,7 +2084,7 @@ header {
   #routes .col-xs-6 {
     padding-left: 0px; }
 
-footer {
+#footer {
   color: #FFFFFF;
   background: #078d8d;
   background: -moz-linear-gradient(top, #078d8d 0%, #066a6a 45%, #032a6d 100%);
@@ -2079,28 +2094,31 @@ footer {
   background: -ms-linear-gradient(top, #078d8d 0%, #066a6a 45%, #032a6d 100%);
   background: linear-gradient(to bottom, #078d8d 0%, #066a6a 45%, #032a6d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#078d8d', endColorstr='#032a6d', GradientType=0 ); }
-  footer h2 {
-    color: #fff; }
-  footer h4 {
+  #footer .kontakti-wrapper {
+    max-width: 1920px;
+    margin: 0 auto; }
+  #footer h2 {
+    color: #FFFFFF; }
+  #footer h4 {
     color: #ffab35;
     padding-bottom: 10px;
     text-transform: uppercase; }
-  footer h5 {
+  #footer h5 {
     color: #89e9f8;
     font-weight: bolder; }
   @media only screen and (min-width: 320px) {
-    footer {
+    #footer {
       text-align: center; } }
-  footer .row a {
+  #footer .row a {
     color: #FAFAFA; }
-  footer .row a:hover, footer .row a:active {
+  #footer .row a:hover, #footer .row a:active {
     text-decoration: none;
     color: #0f3756; }
   @media only screen and (min-width: 768px) {
-    footer .row .footer-content {
+    #footer .row .footer-content {
       text-align: center; } }
   @media only screen and (min-width: 992px) {
-    footer .row .footer-content {
+    #footer .row .footer-content {
       text-align: left; } }
 
 #contact-container {

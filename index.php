@@ -79,18 +79,23 @@
         <?php include "php/taxi-boat.php"?>
         <!-- promo -->
         <?php include "php/promo.php"?>
+        <?php include "php/onama.php"?>
         
         <?php include "php/bike-cjenik.php"?>
         <!-- modal -->
 
         <?php include "php/cjenik-bikes.php"?>
-        <?php include "php/partner-slide.php" ?>    
-        <?php include "footer.php"; ?>
+        
+        <!-- unutra je samo div koji nesto zatvara -->
+        <?php include "php/partner-slide.php" ?>  
+  
+        <?php include "footer.php"?>
         
         <!--JavaScript, jquerry and plugins-->
         <script src="js/vendor/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="form.js"></script>
+        
         <script src="js/main-js-backup-min.js"></script>
 
  </body>
