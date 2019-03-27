@@ -65,13 +65,24 @@
         <div class="clearfix"></div> 
         <?php include "php/services.php" ?>
         <!-- services modals -->
+        <!-- sunset -->
         <?php include "php/services-pdnevni.php"; ?>
+        <!-- kno -->
         <?php include "php/services-cdnevni.php"; ?>
+        <!-- lim -->
         <?php include "php/services-urbana.php"; ?>
-        <?php include "php/services-enduro.php"; ?>
+
         <!-- end of services -->
-        <?php include "php/location.php" ?>
+        <?php include "php/rent.php" ?>
+        <!-- modals -->
+        <?php include "php/najam-plovila.php"?>
+        <?php include "php/taxi-boat.php"?>
+        <!-- promo -->
+        <?php include "php/promo.php"?>
+        
         <?php include "php/bike-cjenik.php"?>
+        <!-- modal -->
+
         <?php include "php/cjenik-bikes.php"?>
         <?php include "php/partner-slide.php" ?>    
         <?php include "footer.php"; ?>

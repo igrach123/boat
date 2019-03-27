@@ -17,11 +17,12 @@
                       <ul class=" nav navbar-nav navbar-left">
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home" class="scroll ">POČETNA</a></li>
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services" class="scroll">IZLETI</a></li>
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">NAJAM</a></li> 
                                 
                        </ul>
                        <ul class=" nav navbar-nav navbar-right">
-                       <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#location" class="scroll">NAJAM PLOVILA</a></li> 
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#location" class="scroll">TAXI BOAT</a></li> 
+                       
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">TAXI BOAT</a></li> 
                             
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">KONTAKT</a></li>
                             <li id="lang-id">

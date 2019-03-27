@@ -858,16 +858,13 @@ h3{
 //cose colore
 
 }
-#services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup{
+#services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat{
     .intro{
         font-family: 'Roboto', cursive;
         color: $third;
         font-weight: thin;
         font-size: 20px;
     } 
-    .close{
-        color: #a94442 !important;
-    }
     
     .services-sm-title{
     color: $main-blue;
@@ -895,7 +892,7 @@ h3{
     h4{
         font-family: 'Abril Fatface',sans-serif;
         text-align: center;
-        font-size: 45px;
+        font-size: 35px;
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                         0px 8px 13px rgba(0,0,0,0.1),
                          0px 18px 23px rgba(0,0,0,0.1);
@@ -912,12 +909,13 @@ h3{
       font-size: 50px;
       font-weight: 700;
       line-height: 1;
-      color: #000;
+      color:$main-orange;
       text-shadow: 0 1px 0 #fff;
       filter: alpha(opacity=20);
       opacity: 0.5;
       margin-right: 10px
   }
+
   .h7{
           font-size: 18px;
           color:$torkis-blue;
@@ -1023,7 +1021,6 @@ h3{
 #services-bike{
     
     h4{
-       
         background-image: url(../img/izleti/lim.jpg); 
         background-size: cover;
         background-position: center;
@@ -1057,39 +1054,39 @@ h3{
         }
      }
 }
-#services-sup{
-    
-    h4{
-       
-        background-image: url(../img/sup/sup-header.jpg); 
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;  
-    }
-}
-#services-snorkeling{
-    
-    h4{
-       
-        background-image: url(../img/snorkeling/snorkeling-header.jpg); 
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;  
-    }
-}#services-rental{
-    
-    h4{
-       
-        background-image: url(../img/equipment/equipment-header.jpg); 
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;  
-    }
-}
-//****************LOKACIJA SECTION*******************//
-#location{
+
+
+//****************rent section*******************//
+#rent{
     background-color: $bg-grey-lighter;
-    padding-bottom: 40px;
+    color: $bg-white;
+    .rent-wrapper{
+        margin: 0 auto;
+        max-width: 1920px;
+    }
+    #najam{
+      
+        @include xxs {
+            background: url(../img/rent/najam-m.jpg) center no-repeat;
+            background-attachment:cover;
+            margin-bottom: 20px;
+        }
+        @include sm {
+            background: url(../img/rent/najam.jpg) center no-repeat;
+            margin-bottom: 0px;
+        }
+    }
+
+    #taxi{
+        @include xxs {
+            background: url(../img/rent/taxi-m.jpg) center no-repeat;
+            background-attachment:cover;
+        }
+        @include sm {
+            background: url(../img/rent/taxi.jpg) center no-repeat;
+        }
+    }
+   
     h4{
         margin-top: 20px;
         a{
@@ -1108,62 +1105,26 @@ h3{
     p{
         text-align: justify;
     }
-    .facebook-iframe{
-        display:block;
-        margin-top: 10px;
-        padding-top: 10px;
-    }
-    .drugi-location{
-        h4{
-            text-transform: uppercase;
-            color:$second;
-        }
-        margin-bottom: 15px;
-        .row{
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-        .l-img-holder{
-            padding: 0px;
-        }
-        .pmd-card-actions{
-            padding: 15px;
-        }   
-    }
-    .l-iconi-wrapper{
-        list-style: none;
-        div{
-
-            @include xxs {
-            display: inline-block;
-            float: left;
-            width: 10%;
-            margin-left: 5px;  
-            }
-           
-            img{
-                padding: 5px;
-                border-radius: 50%;
-                display: block;
-                margin: 0 auto;
-                transition:all 0.4s ease-in-out;
-                background-color: $main-blue;
-            }
-            img:hover,img:focus{
-
-                  background-color: $main-orange;    
-            }
-            p{               
-                text-align: center;
-                font-size: 14px;
-                color: $second;
-                font-weight: bold;
-            }
-        }
-    }
 
 
 }
+// end of rent
+ //rent modal
+ #najam-plovila{
+    h4{
+        background-image: url(../img/izleti/lim.jpg); 
+  
+    }
+}
+
+#taxi-boat{
+    h4{
+        background-image: url(../img/rent/taxi.jpg); 
+  
+    }
+}
+
+
 #location-permantura,#location-medulin,#location-bike{
     //modal button close desing
     .close {
@@ -1185,10 +1146,10 @@ h3{
     h4{
         font-size: 30px;
         text-align: center;
-        font-family: "Permanent Marker",cursive;
+        font-family: "Abagil Fatface",sans-serif;
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                        0px 8px 13px rgba(0,0,0,0.1),
-                         0px 18px 23px rgba(0,0,0,0.1);
+         0px 8px 13px rgba(0,0,0,0.1),
+         0px 18px 23px rgba(0,0,0,0.1);
         background-color:rgba(137,177,248,0.2);
         color: $main-orange;
         vertical-align:middle; /*middle centred*/
@@ -1823,6 +1784,3 @@ body.modal-open[style] {
         padding-bottom: 20px;
     }
 }
-.modal-title{
-        color: $main-blue;
-     }

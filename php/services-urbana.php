@@ -1,14 +1,14 @@
 
-<!-- modal URBANA GRADSKA TURA - PULA -->
+<!-- modal LIM FJORD -->
 <div id="services-bike" class="modal fade" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content" >
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
-                <h4 class="modal-title">URBANA GRADSKA TURA - PULA</h4>
+                <h4 class="modal-title">LIM FJORD</h4>
             </div>
             <div class="modal-body">
-                <h5 class="services-sm-title">IZLETI BICIKLIMA</h5>
+                <h5 class="services-sm-title">OPIS IZLETA</h5>
 
                 <div class="row">
                     <div class=" col-sm-4 col-xs-12">
@@ -96,54 +96,6 @@
              </div> <!-- card -->
          </div><!-- end of col-sm-1   -->
 </div><!-- ROW -->
-<!-- opis izlet
- -->
- <div class="row">
-   <p class="h7">OPIS IZLETA</p>
-   <div class="col-md-12"> 
-     <!-- Nav tabs -->
-     <div class="card1">
-       <ul class="nav nav-tabs" role="tablist">
-         <li role="presentation" class="active"><a href="#home1" aria-controls="home1" role="tab" data-toggle="tab"><span>POLUDNEVNI IZLET</span></a></li>
-         <li role="presentation"><a href="#profile1" aria-controls="profile1" role="tab" data-toggle="tab">  <span>CJELODNEVNI IZLET</span></a></li>
-         <li role="presentation"><a href="#messages1" aria-controls="messages1" role="tab" data-toggle="tab">  <span>URBANA GRADSKA TURA</span></a></li>
-       </ul>
-       
-       <!-- Tab panes -->
-       <div class="tab-content">
-         <div role="tabpanel" class="tab-pane active" id="home1"> 
-         <b>Poludnevni izlet brdskim biciklom počinje u 10 hi 14 h.</b>
-          Izlet biciklom dogovara se barem jedan dan unaprijed.
-          Izlet počinje i završava u Premanturi blizu kućnog broja selo 63 (nasuprot Surf Bara). Tijekom poludnevnog izleta ćemo voziti po biciklističkoj stazi na donjem Kamenjaku, zaustaviti se i pogledati dino park i vidjeti otiske dinosaurusa te se okupati na osamljenim plažama.
-          O ritmu odvijanja izleta odlučuje vodič, na način da se odvijanje izleta provodi na siguran način i onim tempom koji mogu pratiti svi sudionici izleta. 
-         <b>Prijeći ćemo oko 15 km.</b> 
-
-         </div>
-         <div role="tabpanel" class="tab-pane" id="profile1"> 
-         <b> Cjelodnevni izlet biciklom počine u 10 h</b>
-          Izlet biciklom dogovara se barem jedan dan unaprijed.
-          Izlet počinje i završava u Premanturi blizu kućnog broja selo 63 (nasuprot Surf bara). Tijekom cjelodnevnog izleta ćemo vidjeti i proći biciklističku stazu na donjem Kamenjaku, zaustaviti se i pogledati dino park i vidjeti otiske dinosaurusa. Okupatise na osamljenim plažama. Proći singl trailove na Gornjem Kamenjaku. Ručak u Safari baru.
-          O ritmu odvijanja izleta odlučuje vodič, na način da se odvijanje izleta provodi na siguran način i onim tempom koji mogu pratiti svi sudionici izleta.
-          <b>Prijeći ćemo oko 30 km</b>
-         </div>
-
-         <div role="tabpanel" class="tab-pane" id="messages1"><b>Urbana gradska tura.</b> 
-          Početak ture Marsovo polje
-          Prvi stop Verudela 
-          Obilazak Aquarima ili kupanje
-          Drugi stop Valovine
-          Snorkeling u špilju (grotte di colombi)
-          Treći stop Arena pula
-          Četvrti stop Forum
-          Peti stop Zlatna vrata
-          Povratak na Marsovo polje
-         </div>
-       </div> <!-- tab content -->
-     </div> <!-- card1 -->
-   </div> <!-- col md 12 -->
- </div> <!-- row -->
-      
-
  <hr> 
 
 

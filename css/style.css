@@ -1605,36 +1605,34 @@ header {
     width: 50px;
     padding-left: 5px; }
 
-#services-windsurf .intro, #services-bike .intro, #services-kayaking .intro, #services-rental .intro, #services-snorkeling .intro, #services-sup .intro {
+#services-windsurf .intro, #services-bike .intro, #services-kayaking .intro, #services-rental .intro, #services-snorkeling .intro, #services-sup .intro, #najam-plovila .intro, #taxi-boat .intro {
   font-family: 'Roboto', cursive;
   color: rgba(0, 0, 0, 0.38);
   font-weight: thin;
   font-size: 20px; }
-#services-windsurf .close, #services-bike .close, #services-kayaking .close, #services-rental .close, #services-snorkeling .close, #services-sup .close {
-  color: #a94442 !important; }
-#services-windsurf .services-sm-title, #services-bike .services-sm-title, #services-kayaking .services-sm-title, #services-rental .services-sm-title, #services-snorkeling .services-sm-title, #services-sup .services-sm-title {
+#services-windsurf .services-sm-title, #services-bike .services-sm-title, #services-kayaking .services-sm-title, #services-rental .services-sm-title, #services-snorkeling .services-sm-title, #services-sup .services-sm-title, #najam-plovila .services-sm-title, #taxi-boat .services-sm-title {
   color: #0f3756;
   padding: 30px 0 30px 0;
   text-align: center;
   font-size: 28px;
   font-weight: 600; }
-#services-windsurf .services-sm-title2, #services-bike .services-sm-title2, #services-kayaking .services-sm-title2, #services-rental .services-sm-title2, #services-snorkeling .services-sm-title2, #services-sup .services-sm-title2 {
+#services-windsurf .services-sm-title2, #services-bike .services-sm-title2, #services-kayaking .services-sm-title2, #services-rental .services-sm-title2, #services-snorkeling .services-sm-title2, #services-sup .services-sm-title2, #najam-plovila .services-sm-title2, #taxi-boat .services-sm-title2 {
   color: #0f3756;
   padding: 30px 0px 0px 0px;
   text-align: center;
   font-size: 28px;
   font-weight: 600; }
-#services-windsurf .btn-info, #services-bike .btn-info, #services-kayaking .btn-info, #services-rental .btn-info, #services-snorkeling .btn-info, #services-sup .btn-info {
+#services-windsurf .btn-info, #services-bike .btn-info, #services-kayaking .btn-info, #services-rental .btn-info, #services-snorkeling .btn-info, #services-sup .btn-info, #najam-plovila .btn-info, #taxi-boat .btn-info {
   border-radius: 0px;
   position: absolute;
   right: 0;
   bottom: 0; }
-#services-windsurf .modal-header, #services-bike .modal-header, #services-kayaking .modal-header, #services-rental .modal-header, #services-snorkeling .modal-header, #services-sup .modal-header {
+#services-windsurf .modal-header, #services-bike .modal-header, #services-kayaking .modal-header, #services-rental .modal-header, #services-snorkeling .modal-header, #services-sup .modal-header, #najam-plovila .modal-header, #taxi-boat .modal-header {
   padding: 0px; }
-#services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4 {
+#services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4 {
   font-family: 'Abril Fatface',sans-serif;
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
   background-color: rgba(137, 177, 248, 0.2);
   color: #89e9f8;
@@ -1642,28 +1640,28 @@ header {
   /*middle centred*/
   padding-top: 125px;
   padding-bottom: 125px; }
-#services-windsurf .close, #services-bike .close, #services-kayaking .close, #services-rental .close, #services-snorkeling .close, #services-sup .close {
+#services-windsurf .close, #services-bike .close, #services-kayaking .close, #services-rental .close, #services-snorkeling .close, #services-sup .close, #najam-plovila .close, #taxi-boat .close {
   padding-right: 10px;
   float: right;
   font-size: 50px;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: #ffab35;
   text-shadow: 0 1px 0 #fff;
   filter: alpha(opacity=20);
   opacity: 0.5;
   margin-right: 10px; }
-#services-windsurf .h7, #services-bike .h7, #services-kayaking .h7, #services-rental .h7, #services-snorkeling .h7, #services-sup .h7 {
+#services-windsurf .h7, #services-bike .h7, #services-kayaking .h7, #services-rental .h7, #services-snorkeling .h7, #services-sup .h7, #najam-plovila .h7, #taxi-boat .h7 {
   font-size: 18px;
   color: #89e9f8;
   font-weight: bolder;
   letter-spacing: 4px;
   text-align: center;
   padding-top: 40px; }
-#services-windsurf .facebook-modal-link, #services-bike .facebook-modal-link, #services-kayaking .facebook-modal-link, #services-rental .facebook-modal-link, #services-snorkeling .facebook-modal-link, #services-sup .facebook-modal-link {
+#services-windsurf .facebook-modal-link, #services-bike .facebook-modal-link, #services-kayaking .facebook-modal-link, #services-rental .facebook-modal-link, #services-snorkeling .facebook-modal-link, #services-sup .facebook-modal-link, #najam-plovila .facebook-modal-link, #taxi-boat .facebook-modal-link {
   margin-left: 0px !important;
   margin-top: 10px; }
-#services-windsurf .facebook-modal-iframe, #services-bike .facebook-modal-iframe, #services-kayaking .facebook-modal-iframe, #services-rental .facebook-modal-iframe, #services-snorkeling .facebook-modal-iframe, #services-sup .facebook-modal-iframe {
+#services-windsurf .facebook-modal-iframe, #services-bike .facebook-modal-iframe, #services-kayaking .facebook-modal-iframe, #services-rental .facebook-modal-iframe, #services-snorkeling .facebook-modal-iframe, #services-sup .facebook-modal-iframe, #najam-plovila .facebook-modal-iframe, #taxi-boat .facebook-modal-iframe {
   display: inherit; }
 
 #services-windsurf h4 {
@@ -1808,77 +1806,46 @@ header {
 #services-bike .bicikle-info .thumbnail:active, #services-bike .bicikle-info .thumbnail:hover {
   border: 1px solid #89e9f8; }
 
-#services-sup h4 {
-  background-image: url(../img/sup/sup-header.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-#services-snorkeling h4 {
-  background-image: url(../img/snorkeling/snorkeling-header.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-#services-rental h4 {
-  background-image: url(../img/equipment/equipment-header.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-#location {
+#rent {
   background-color: #FAFAFA;
-  padding-bottom: 40px; }
-  #location h4 {
+  color: #FFFFFF; }
+  #rent .rent-wrapper {
+    margin: 0 auto;
+    max-width: 1920px; }
+  @media only screen and (min-width: 320px) {
+    #rent #najam {
+      background: url(../img/rent/najam-m.jpg) center no-repeat;
+      background-attachment: cover;
+      margin-bottom: 20px; } }
+  @media only screen and (min-width: 768px) {
+    #rent #najam {
+      background: url(../img/rent/najam.jpg) center no-repeat;
+      margin-bottom: 0px; } }
+  @media only screen and (min-width: 320px) {
+    #rent #taxi {
+      background: url(../img/rent/taxi-m.jpg) center no-repeat;
+      background-attachment: cover; } }
+  @media only screen and (min-width: 768px) {
+    #rent #taxi {
+      background: url(../img/rent/taxi.jpg) center no-repeat; } }
+  #rent h4 {
     margin-top: 20px; }
-    #location h4 a {
+    #rent h4 a {
       text-decoration: none;
       color: #FFFFFF; }
-  #location .btn-success {
+  #rent .btn-success {
     color: #FFF; }
-  #location h3 {
+  #rent h3 {
     text-transform: uppercase;
     padding-top: 10px; }
-  #location p {
+  #rent p {
     text-align: justify; }
-  #location .facebook-iframe {
-    display: block;
-    margin-top: 10px;
-    padding-top: 10px; }
-  #location .drugi-location {
-    margin-bottom: 15px; }
-    #location .drugi-location h4 {
-      text-transform: uppercase;
-      color: rgba(0, 0, 0, 0.54); }
-    #location .drugi-location .row {
-      margin-left: 0px;
-      margin-right: 0px; }
-    #location .drugi-location .l-img-holder {
-      padding: 0px; }
-    #location .drugi-location .pmd-card-actions {
-      padding: 15px; }
-  #location .l-iconi-wrapper {
-    list-style: none; }
-    @media only screen and (min-width: 320px) {
-      #location .l-iconi-wrapper div {
-        display: inline-block;
-        float: left;
-        width: 10%;
-        margin-left: 5px; } }
-    #location .l-iconi-wrapper div img {
-      padding: 5px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-      transition: all 0.4s ease-in-out;
-      background-color: #0f3756; }
-    #location .l-iconi-wrapper div img:hover, #location .l-iconi-wrapper div img:focus {
-      background-color: #ffab35; }
-    #location .l-iconi-wrapper div p {
-      text-align: center;
-      font-size: 14px;
-      color: rgba(0, 0, 0, 0.54);
-      font-weight: bold; }
+
+#najam-plovila h4 {
+  background-image: url(../img/izleti/lim.jpg); }
+
+#taxi-boat h4 {
+  background-image: url(../img/rent/taxi.jpg); }
 
 #location-permantura .close, #location-medulin .close, #location-bike .close {
   padding-right: 10px;
@@ -1896,7 +1863,7 @@ header {
 #location-permantura h4, #location-medulin h4, #location-bike h4 {
   font-size: 30px;
   text-align: center;
-  font-family: "Permanent Marker",cursive;
+  font-family: "Abagil Fatface",sans-serif;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
   background-color: rgba(137, 177, 248, 0.2);
   color: #ffab35;
@@ -2338,8 +2305,5 @@ body.modal-open[style] {
 .modal-body p {
   padding-top: 10px;
   padding-bottom: 20px; }
-
-.modal-title {
-  color: #0f3756; }
 
 /*# sourceMappingURL=style.css.map */

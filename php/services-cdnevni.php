@@ -1,11 +1,11 @@
 
-<!-- modal CJLEODNEVNI -->
+<!-- modal KUPANJE NA OTOCIMA -->
 <div id="services-kayaking" class="modal fade" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content" >
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
-                <h4 class="modal-title">CJELODNEVNI IZLET</h4>
+                <h4 class="modal-title">KUPANJE NA OTOCIMA</h4>
             </div>
             <div class="modal-body">
             <h5 class="services-sm-title">OPIS IZLETA</h5>

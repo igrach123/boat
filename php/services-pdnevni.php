@@ -1,13 +1,13 @@
 
 
 
-<!-- modal POLUDNEVNI IZLET -->
+<!--ZALAZAK SUNCA MODAL -->
 <div id="services-windsurf" class="modal fade" role="dialog" aria-labelledby="myModalLabel" tabindex="-1" role="document">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content" >
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
-                <h4 class="modal-title">POLUDNEVNI IZLET</h4>
+                <h4 class="modal-title">ZALAZAK SUNCA I DELFINI</h4>
             </div>
     <div class="modal-body">
     <h5 class="services-sm-title">OPIS IZLETA</h5>
