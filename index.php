@@ -9,7 +9,7 @@
     <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-            <title>Boat Excursions Tonka - Rovinj</title>
+            <title>BoatExcursions Tonka - Rovinj</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
          
             <!-- favicon setup -->
@@ -34,8 +34,8 @@
             <base href="#">
             <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
             <link href="en/index.php" rel="alternate" hreflang="en"> 
-            <meta name="keywords" content="BoatExcursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom, Rovinj , Hrvatska, Najam Glisera, Izlet Gliserom">
-            <meta name="description" content="BoatExcursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom, Rovinj , Najam Glisera, Izlet Gliserom">
+            <meta name="keywords" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj ,Limski kanal, Hrvatska, Najam Glisera, Izlet Gliserom">
+            <meta name="description" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj , Najam Glisera Limski kanal, Izlet Gliserom">
             <meta http-equiv="content-language" content="hr,en">
             <!-- sharethis javascript gdpr -->
             <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=gdpr-compliance-tool' async='async'></script>

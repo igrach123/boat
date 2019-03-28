@@ -15,7 +15,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class=" nav navbar-nav navbar-left">
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home" class="scroll ">POČETNA</a></li>
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home" class="scroll ">NASLOVNICA</a></li>
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services" class="scroll">IZLETI</a></li>
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">NAJAM</a></li> 
                                 

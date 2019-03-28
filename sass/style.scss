@@ -376,7 +376,8 @@ header{
 		  }
 		}
 		//end of animated hamburger
-	}
+    }
+    
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border:none;
     background-color:#ffffff;
@@ -545,7 +546,7 @@ header{
 			  	.navbar-nav{
 					li{
 						a{
-						 color:$second;
+						 color:$main-blue;
 						}
 						a:hover{
 							color: $main-blue;

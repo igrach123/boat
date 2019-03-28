@@ -1345,7 +1345,7 @@ header {
       background-color: white;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
       header .navbar-default.bg-trans .navbar-nav li a {
-        color: rgba(0, 0, 0, 0.54); }
+        color: #0f3756; }
       header .navbar-default.bg-trans .navbar-nav li a:hover {
         color: #0f3756; } }
   header p {
