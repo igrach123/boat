@@ -4,7 +4,6 @@
    ========================================================================== */
 //font import
 @import url('https://fonts.googleapis.com/css?family=Coda|Open+Sans|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 //bs media querries import
 
@@ -57,10 +56,14 @@ body{
     margin:0px 0px;
     padding: 0px 0px;
     background:$bg-white;  /* fallback for old browsers */
-   
     font-size: 16px;
     font-family: 'Open Sans', 'Helvetica' ,sans-serif;
-    overflow-x: hidden;  
+    overflow-x: hidden;
+    // side [ushing problem fixed]
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }  
 }
 .site-wrapper{
     width: 100%;
@@ -179,7 +182,7 @@ h2{
 // ORANGE BUTTON ON THE SITE
 .btn {
 	 font-weight: 400;
-	 padding: 15px 35px;
+	 padding: 12px 40px;
 	 letter-spacing: 1px;
 	 white-space: nowrap;
      border-radius: 5px;
@@ -824,9 +827,7 @@ header{
     .modal-footer{
 
     }
-    .col-5px{
-        padding: 5px 5px 5px 5px;
-    }
+ 
     // services home section
     @import "imghover";
  
@@ -839,6 +840,14 @@ h3{
             width:50px;
             padding-left: 5px;
         }
+}
+.time{
+    display:block;
+    background-color: $water-blue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 //CIJENA
 
@@ -879,12 +888,11 @@ h3{
     h4{
         font-family: 'Abril Fatface',sans-serif;
         text-align: center;
-        font-size: 35px;
+        font-size: 3rem;
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                         0px 8px 13px rgba(0,0,0,0.1),
                          0px 18px 23px rgba(0,0,0,0.1);
-        background-color:rgba(137,177,248,0.2);
-        color: $torkis-blue;
+        color: $main-orange;
         vertical-align:middle; /*middle centred*/
         padding-top: 125px;
         padding-bottom: 125px;
@@ -929,7 +937,7 @@ h3{
        
         background-image: url(../img/izleti/sunset.jpg); 
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;  
     }
     .windsurf-daske{
@@ -981,7 +989,7 @@ h3{
        
         background-image: url(../img/izleti/island.jpg); 
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;   
     }
     //nav tabs ful width
@@ -1010,7 +1018,7 @@ h3{
     h4{
         background-image: url(../img/izleti/lim.jpg); 
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;  
     }
     //nav tabs ful width
@@ -1047,12 +1055,19 @@ h3{
 #rent{
     background-color: $bg-grey-lighter;
     color: $bg-white;
-    .rent-wrapper{
-        margin: 0 auto;
-        max-width: 1920px;
+    @include md {
+        .rent-wrapper{
+            margin: 0 auto;
+            max-width: 1920px;
+            
+        }
     }
+  
     #najam{
-      
+       padding-bottom: 40px;
+       h2{
+           padding-top:40px;
+       }
         @include xxs {
             background: url(../img/rent/najam-m.jpg) center no-repeat;
             background-attachment:cover;
@@ -1065,6 +1080,10 @@ h3{
     }
 
     #taxi{
+         padding-bottom: 40px;
+         h2{
+             padding-top:40px;
+         }
         @include xxs {
             background: url(../img/rent/taxi-m.jpg) center no-repeat;
             background-attachment:cover;
@@ -1090,7 +1109,7 @@ h3{
        padding-top: 10px;
     }
     p{
-        text-align: justify;
+
     }
 
 
@@ -1099,7 +1118,8 @@ h3{
  //rent modal
  #najam-plovila{
     h4{
-        background-image: url(../img/izleti/lim.jpg); 
+        background-image: url(../img/rent/najam.jpg);
+        background-position: center center; 
   
     }
 }
@@ -1107,6 +1127,7 @@ h3{
 #taxi-boat{
     h4{
         background-image: url(../img/rent/taxi.jpg); 
+        background-position: center center;
   
     }
 }
@@ -1190,10 +1211,14 @@ h3{
 
 // o nama
 #onama{
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color:$bg-white;
     margin: 0 auto;
     max-width: 1920px;
 }
+
+
 //galerija+bike section
 #galery{
 
@@ -1321,26 +1346,26 @@ h3{
 @include xxs {
     .imgwrapper{
          border-radius: 3px;
-          width: 22%;
+          width: 19%;
           float: left;
           position:relative;
           overflow: hidden;
           transition: 0.6s ease-in-out;
           -webkit-transition: 0.6s ease-in-out;
           z-index: 400;
-            margin: 1%;
+            margin: 0.5%;
           
     }
 }
 @include md {
     .imgwrapper{
      border-radius: 3px;
-      width: 31%;
+      width: 16%;
       float: left;
       position:relative;
       overflow: hidden;
 
-     	margin: 1%;
+     	margin: 0.3%;
     }
 }
 .imgwrapper img{

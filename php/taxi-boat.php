@@ -12,16 +12,19 @@
             <div class="modal-body">
             <!-- <img  class="img-responsive lazy-img" src="img/windsurf/windsurf1.jpg" data-echo="img/windsurf1.jpg" alt="Premantura"> -->
 
-            <p class="text-muted">
-                Naš centar u Premanturi nalazi se u Kampu Arena Stupice gdje je moguće rezervirati smještaj. Više informacija na adresi <a href="http://www.arenaturist.hr" target="_blank">www.arenaturist.hr</a> 
-            </p>
-              <h5 class="text-center">KOD NAS IZNAJMITE</h5>
-           <hr>
+            <p class="muted">
+               <b> Na Vaš poziv vršimo usluge taxiranja morem.</b> <br> <br>
+                Brzo i sigurno plovite rovinjskim arhipelagom.
+                Vrsar,Poreč,Limski kanal,Brijuni - sve je blizu morskim putem.
+
+                <br> <br>
+                <b>Za sve ostale informacije stojimo Vam na raspolaganju.</b>
+
 
 
 
     <div class="pmd-card-actions col-xs-6">
-       <p>facebook</p>
+        <div class="sharethis-inline-share-buttons"></div> 
      </div>  
      <div class="modal-footer row">
        <button type="button" class="btn btn-primary" data-dismiss="modal">Zatvori</button>

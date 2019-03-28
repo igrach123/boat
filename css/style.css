@@ -3,7 +3,6 @@
    Author's custom styles
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Coda|Open+Sans|Roboto");
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 .card-1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -985,6 +984,9 @@ body {
   font-size: 16px;
   font-family: 'Open Sans', 'Helvetica' ,sans-serif;
   overflow-x: hidden; }
+  body .row {
+    margin-right: 0px;
+    margin-left: 0px; }
 
 .site-wrapper {
   width: 100%; }
@@ -1088,15 +1090,15 @@ h2 {
 
 .btn {
   font-weight: 400;
-  padding: 15px 35px;
+  padding: 12px 40px;
   letter-spacing: 1px;
   white-space: nowrap;
   border-radius: 5px; }
 
 .btn-primary {
-  background-color: #ffab35;
+  background-color: #fcb61d;
   color: #FFFFFF;
-  border: 1px solid #ffab35;
+  border: 1px solid #fcb61d;
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -1104,13 +1106,13 @@ h2 {
 
 .btn-primary:hover {
   background-color: inherit;
-  color: #ffab35;
-  border: 1px solid #ffab35; }
+  color: #fcb61d;
+  border: 1px solid #fcb61d; }
 
 .btn-primary:focus, .dropdown-toggle.btn-primary:focus {
   background-color: inherit;
-  color: #ffab35;
-  border: 1px solid #ffab35; }
+  color: #fcb61d;
+  border: 1px solid #fcb61d; }
 
 .btn-default {
   background-color: #0f3756;
@@ -1371,10 +1373,10 @@ header {
       -moz-transition: 0.3 s ease-in-out;
       font-size: 14px;
       font-weight: bolder;
-      border: 1px solid #ffab35; }
+      border: 1px solid #fcb61d; }
     #lang-id .language button:hover {
       color: #FFFFFF;
-      background-color: #ffab35;
+      background-color: #fcb61d;
       border: 0px;
       padding: 5px 10px 5px 10px; }
     #lang-id .dropdown-menu {
@@ -1397,7 +1399,7 @@ header {
       clear: both;
       font-weight: 400;
       line-height: 1.42857143;
-      color: #ffab35;
+      color: #fcb61d;
       white-space: nowrap;
       font-size: 120%; } }
 @media only screen and (min-width: 768px) {
@@ -1413,7 +1415,7 @@ header {
       -moz-transition: 0.3 s ease-in-out; }
     #lang-id .language button:hover {
       color: #FFFFFF;
-      background-color: #ffab35;
+      background-color: #fcb61d;
       border: 0px;
       padding: 1px; }
     #lang-id .dropdown-menu {
@@ -1438,7 +1440,7 @@ header {
       clear: both;
       font-weight: 400;
       line-height: 1.42857143;
-      color: #ffab35;
+      color: #fcb61d;
       white-space: nowrap;
       font-size: 85%; }
 
@@ -1452,7 +1454,7 @@ header {
     -moz-transition: 0.3 s ease-in-out; }
   #lang-id.smaller .language button:hover {
     color: #FFFFFF;
-    background-color: #ffab35; }
+    background-color: #fcb61d; }
   #lang-id.smaller .dropdown-menu {
     background-color: #FFFFFF; }
   #lang-id.smaller .dropdown-menu li {
@@ -1474,7 +1476,7 @@ header {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #ffab35;
+    color: #fcb61d;
     white-space: nowrap;
     font-size: 85%; } }
 .btn-warning, .dropdown-toggle.btn-warning {
@@ -1542,55 +1544,51 @@ header {
     margin: 0 auto; }
   #services .price-bg {
     color: #FFFFFF; }
-  #services .col-5px {
-    padding: 5px 5px 5px 5px; }
   #services .service-wrap {
     overflow: hidden;
     border-radius: 5px;
     position: relative; }
   #services .t-1-wrapper, #services .t-2-wrapper, #services .t-3-wrapper.t-4-wrapper {
     overflow: hidden;
-    position: relative; }
+    position: relative;
+    margin-bottom: 25px; }
   #services .t-1, #services .t-2, #services .t-3, #services .t-4 {
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
     border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-    min-height: 400px; }
+    transition: all 0.3s ease-in-out; }
     #services .t-1 h3, #services .t-2 h3, #services .t-3 h3, #services .t-4 h3 {
       font-family: "Abagil Fontface" ,sans-serif;
-      color: #FFFFFF; }
+      color: #fcb61d;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
   #services .t-1 {
     background-image: url("../img/izleti/sunset.jpg");
     background-position: center center;
     background-color: grey;
     background-size: cover; }
-  #services .t-1:hover {
-    transform: scale(1.02);
-    transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
-  #services .t-2:hover {
-    transform: scale(1.02);
-    transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
-  #services .t-3:hover {
-    transform: scale(1.02);
-    transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
-  #services .t-4:hover {
-    transform: scale(1.02);
-    transition: left 0.3s ease-out, top 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out, transform 5s ease-out 0.3s; }
   #services .t-2 {
     background-image: url("../img/izleti/island.jpg");
     background-color: grey;
+    background-position: center center;
     background-size: cover; }
   #services .t-3 {
     background-image: url("../img/izleti/lim.jpg");
     background-color: grey;
+    background-position: center center;
     background-size: cover; }
   #services .pmd-card {
     border-radius: 0px 0px 5px 5px; }
   #services h3 img {
     width: 50px;
     padding-left: 5px; }
+  #services .time {
+    display: block;
+    background-color: rgba(0, 210, 255, 0.5);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px; }
 
 #services-windsurf .intro, #services-bike .intro, #services-kayaking .intro, #services-rental .intro, #services-snorkeling .intro, #services-sup .intro, #najam-plovila .intro, #taxi-boat .intro {
   font-family: 'Roboto', cursive;
@@ -1619,10 +1617,9 @@ header {
 #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4 {
   font-family: 'Abril Fatface',sans-serif;
   text-align: center;
-  font-size: 35px;
+  font-size: 3rem;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
-  background-color: rgba(137, 177, 248, 0.2);
-  color: #89e9f8;
+  color: #fcb61d;
   vertical-align: middle;
   /*middle centred*/
   padding-top: 125px;
@@ -1633,7 +1630,7 @@ header {
   font-size: 50px;
   font-weight: 700;
   line-height: 1;
-  color: #ffab35;
+  color: #fcb61d;
   text-shadow: 0 1px 0 #fff;
   filter: alpha(opacity=20);
   opacity: 0.5;
@@ -1654,7 +1651,7 @@ header {
 #services-windsurf h4 {
   background-image: url(../img/izleti/sunset.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat; }
 #services-windsurf .windsurf-daske .thumbnail {
   margin: 0 auto;
@@ -1685,7 +1682,7 @@ header {
 #services-kayaking h4 {
   background-image: url(../img/izleti/island.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat; }
 #services-kayaking .nav-tabs {
   border-bottom: 2px solid #DDD; }
@@ -1738,7 +1735,7 @@ header {
 #services-bike h4 {
   background-image: url(../img/izleti/lim.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat; }
 #services-bike .nav-tabs {
   border-bottom: 2px solid #DDD; }
@@ -1796,25 +1793,34 @@ header {
 #rent {
   background-color: #FAFAFA;
   color: #FFFFFF; }
-  #rent .rent-wrapper {
-    margin: 0 auto;
-    max-width: 1920px; }
-  @media only screen and (min-width: 320px) {
-    #rent #najam {
-      background: url(../img/rent/najam-m.jpg) center no-repeat;
-      background-attachment: cover;
-      margin-bottom: 20px; } }
-  @media only screen and (min-width: 768px) {
-    #rent #najam {
-      background: url(../img/rent/najam.jpg) center no-repeat;
-      margin-bottom: 0px; } }
-  @media only screen and (min-width: 320px) {
-    #rent #taxi {
-      background: url(../img/rent/taxi-m.jpg) center no-repeat;
-      background-attachment: cover; } }
-  @media only screen and (min-width: 768px) {
-    #rent #taxi {
-      background: url(../img/rent/taxi.jpg) center no-repeat; } }
+  @media only screen and (min-width: 992px) {
+    #rent .rent-wrapper {
+      margin: 0 auto;
+      max-width: 1920px; } }
+  #rent #najam {
+    padding-bottom: 40px; }
+    #rent #najam h2 {
+      padding-top: 40px; }
+    @media only screen and (min-width: 320px) {
+      #rent #najam {
+        background: url(../img/rent/najam-m.jpg) center no-repeat;
+        background-attachment: cover;
+        margin-bottom: 20px; } }
+    @media only screen and (min-width: 768px) {
+      #rent #najam {
+        background: url(../img/rent/najam.jpg) center no-repeat;
+        margin-bottom: 0px; } }
+  #rent #taxi {
+    padding-bottom: 40px; }
+    #rent #taxi h2 {
+      padding-top: 40px; }
+    @media only screen and (min-width: 320px) {
+      #rent #taxi {
+        background: url(../img/rent/taxi-m.jpg) center no-repeat;
+        background-attachment: cover; } }
+    @media only screen and (min-width: 768px) {
+      #rent #taxi {
+        background: url(../img/rent/taxi.jpg) center no-repeat; } }
   #rent h4 {
     margin-top: 20px; }
     #rent h4 a {
@@ -1825,14 +1831,14 @@ header {
   #rent h3 {
     text-transform: uppercase;
     padding-top: 10px; }
-  #rent p {
-    text-align: justify; }
 
 #najam-plovila h4 {
-  background-image: url(../img/izleti/lim.jpg); }
+  background-image: url(../img/rent/najam.jpg);
+  background-position: center center; }
 
 #taxi-boat h4 {
-  background-image: url(../img/rent/taxi.jpg); }
+  background-image: url(../img/rent/taxi.jpg);
+  background-position: center center; }
 
 #location-permantura .close, #location-medulin .close, #location-bike .close {
   padding-right: 10px;
@@ -1853,7 +1859,7 @@ header {
   font-family: "Abagil Fatface",sans-serif;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
   background-color: rgba(137, 177, 248, 0.2);
-  color: #ffab35;
+  color: #fcb61d;
   vertical-align: middle;
   /*middle centred*/
   padding-top: 125px;
@@ -1891,6 +1897,8 @@ header {
     color: #FFFFFF; }
 
 #onama {
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #FFFFFF;
   margin: 0 auto;
   max-width: 1920px; }
@@ -1999,22 +2007,22 @@ header {
 @media only screen and (min-width: 320px) {
   .imgwrapper {
     border-radius: 3px;
-    width: 22%;
+    width: 19%;
     float: left;
     position: relative;
     overflow: hidden;
     transition: 0.6s ease-in-out;
     -webkit-transition: 0.6s ease-in-out;
     z-index: 400;
-    margin: 1%; } }
+    margin: 0.5%; } }
 @media only screen and (min-width: 992px) {
   .imgwrapper {
     border-radius: 3px;
-    width: 31%;
+    width: 16%;
     float: left;
     position: relative;
     overflow: hidden;
-    margin: 1%; } }
+    margin: 0.3%; } }
 .imgwrapper img {
   transition: 0.6s ease-in-out;
   -webkit-transition: 0.6s ease-in-out;
@@ -2049,7 +2057,7 @@ header {
   #routes h2 {
     color: #ffffff; }
   #routes .rute-slogan {
-    color: #ffab35; }
+    color: #fcb61d; }
   #routes h4 {
     font-weight: bold;
     font-size: 1.3em;
@@ -2118,7 +2126,7 @@ header {
 
 .footer-top {
   padding-top: 20px;
-  border-top: 1px solid #ffab35; }
+  border-top: 1px solid #fcb61d; }
   .footer-top ul {
     padding-left: 0px;
     list-style-type: none; }

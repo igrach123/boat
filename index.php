@@ -9,7 +9,7 @@
     <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-            <title>Boat Excursions Tonka</title>
+            <title>Boat Excursions Tonka - Rovinj</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
          
             <!-- favicon setup -->
@@ -34,9 +34,11 @@
             <base href="#">
             <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
             <link href="en/index.php" rel="alternate" hreflang="en"> 
-            <meta name="keywords" content="Cycling centar Premantura Hrvatska, Cycling centro Premantura Croazia, Cycling center Premantura Croatia, rental,rent a bike">
-            <meta name="description" content="Cycling centar Premantura Hrvatska, Cycling centro Premantura Croazia, Cycling center Premantura Croatia, school, rental,rent a bike">
+            <meta name="keywords" content="BoatExcursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom, Rovinj , Hrvatska, Najam Glisera, Izlet Gliserom">
+            <meta name="description" content="BoatExcursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom, Rovinj , Najam Glisera, Izlet Gliserom">
             <meta http-equiv="content-language" content="hr,en">
+            <!-- sharethis javascript gdpr -->
+            <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=gdpr-compliance-tool' async='async'></script>
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
             <link rel="stylesheet" href="css/assets/animate.min.css">
@@ -47,14 +49,13 @@
             <link rel="stylesheet" href="css/owl.theme.min.css">
             <link rel="stylesheet" href="css/owl.transitions.min.css">
             <link rel="stylesheet" href="form.css" >
-           
             <!--main stylesheet-->
             <link rel="stylesheet" href="css/style.css">
             <script src="js/vendor/modernizr-2.8.3.min.js"></script>
             
 
         </head>
- <body data-spy="scroll" data-target="#myNavbar" data-offset="65" id="home-hr">
+  <body data-spy="scroll" data-target="#myNavbar" data-offset="65" id="home-hr">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -66,11 +67,11 @@
         <?php include "php/services.php" ?>
         <!-- services modals -->
         <!-- sunset -->
-        <?php include "php/services-pdnevni.php"; ?>
+        <?php include "php/services-sunset.php"; ?>
         <!-- kno -->
-        <?php include "php/services-cdnevni.php"; ?>
+        <?php include "php/services-kno.php"; ?>
         <!-- lim -->
-        <?php include "php/services-urbana.php"; ?>
+        <?php include "php/services-lim.php"; ?>
 
         <!-- end of services -->
         <?php include "php/rent.php" ?>
@@ -98,5 +99,5 @@
         
         <script src="js/main-js-backup-min.js"></script>
 
- </body>
+  </body>
 </html>

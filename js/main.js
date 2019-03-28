@@ -4,6 +4,7 @@
 // @koala-prepend "jquery.matchHeight.js"
 // @koala-prepend "smooth-scroll.min.js"
 // @koala-prepend "echo.min.js"
+// @koala-prepend "lazyload.min.js"
 // @koala-prepend "vendor/wow.min.js"
 
 
@@ -126,51 +127,7 @@ if($('.navbar-toggle').css('display') !='none'){
 //smoth scroll initialisation
 smoothScroll.init();
 
-
-
-//BLUE IMP GALLERY popis bicikli
-document.getElementById('links').onclick = function (event) {
-event = event || window.event;
-var target = event.target || event.srcElement,
-link = target.src ? target.parentNode : target,
-options = {index: link, event: event},
-links = this.getElementsByTagName('a');
-blueimp.Gallery(links, options);
-};
-
-blueimp.Gallery(
-document.getElementById('links').getElementsByTagName('a'),
-{
-container: '#blueimp-gallery-carousel',
-carousel: true
-}
-);
-var options = {
-
-displayClass: 'blueimp-gallery-display',
-}
-
-//BLUE IMP GALLERY windsurf
-document.getElementById('links2').onclick = function (event) {
-event = event || window.event;
-var target = event.target || event.srcElement,
-link = target.src ? target.parentNode : target,
-options = {index: link, event: event},
-links = this.getElementsByTagName('a');
-blueimp.Gallery(links, options);
-};
-
-blueimp.Gallery(
-document.getElementById('links2').getElementsByTagName('a'),
-{
-container: '#blueimp-gallery-carousel',
-carousel: true
-}
-);
-var options = {
-displayClass: 'blueimp-gallery-display',
-};
-//BLUE IMP GALLERY bikes
+//GALERIJAAAAAA
 document.getElementById('bikes').onclick = function (event) {
 event = event || window.event;
 var target = event.target || event.srcElement,
