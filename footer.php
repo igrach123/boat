@@ -87,7 +87,9 @@
                                     <p class="text-center"><?php echo "$the_sitetitle"; ?>  &copy;  <span class="hidden-sm"> <?php echo date("Y"); ?> </span> </p>
                              </div>
                               <div class="footer-bottom-right">   
-                                 <a href="https://www.cro-webdesign.com/" target="_blank" > <p class="text-left hidden-xs izradio">Cro Web Design</p></a>
+                                 <a href="https://www.cro-webdesign.com/" target="_blank" > <p class="text-center hidden-xs izradio">POWERED BY:<br>
+                                    <span class="cw-logo"></span>
+                                </p></a>
                              </div>
                 </div>
             </div> <!-- end of container -->

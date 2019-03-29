@@ -161,13 +161,12 @@ body{
 h1{
     font-family: "Abril Fatface" , sans-serif;
 }
-h3,h4,h5,h6{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 600;
+h2,h3,h4,h5,h6{
+    font-family: 'Abril Fatface', cursive;
+	text-transform: uppercase;
 }
 h2{
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
 	text-transform: uppercase;
     
     @include xxs {
@@ -1225,6 +1224,14 @@ h3{
     background-color:$bg-white;
     margin: 0 auto;
     max-width: 1920px;
+    .onama-front{
+       @include xxs{
+           margin-bottom: 40px;
+       } 
+       @include sm{
+           margin-bottom: 0px;
+       } 
+    }
 }
 
 
@@ -1471,7 +1478,7 @@ h3{
         background-position:center center;
         background-size: cover;
         margin: 5px;
-        transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+        transition: background-image 0.4s all 0.4s cubic-bezier(.25,.8,.25,1);
     }
     .facebook:hover{
         background-image: url('../img/social/facebook.png');  
@@ -1484,7 +1491,7 @@ h3{
         background-image: url('../img/social/instagram-logo.png');
         background-position:center center;
         background-size: cover;
-        transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+        transition: background-image 0.4s all 0.4s cubic-bezier(.25,.8,.25,1);
     }
     .instagram:hover{
         background-image: url('../img/social/instagram.png');  
@@ -1594,13 +1601,13 @@ h3{
 	
     @include xxs {   
             p{
-            line-height: 300%;
             display: inline-block;
             font-size: 65%;
-            margin-top: 10px;
+
             }
             .footer-bottom-center{
                 p{
+                    margin-top: 20px;
                     font-family: "Abril Fatface", sans-serif;  
                         color: $bg-white;
                     }
@@ -1618,7 +1625,7 @@ h3{
             font-size:90%;
         }
         img{
-            width: 60px;
+            width: 70px;
             padding-top: 7px;
         }
     }
@@ -1628,7 +1635,7 @@ h3{
             font-size: 100%;
           }
          img{
-            width: 50px;
+            width: 80px;
             padding-top: 10px;
         }
     }
@@ -1651,13 +1658,31 @@ h3{
                     text-transform: uppercase;
                     font-weight: bold;
                     color: #b8bec5;
-                    line-height: 400%;
+                 
                  a{
                 color: #b8bec5;
                 text-decoration: none;
                  }
             }
-           
+            .izradio{
+                margin-top: 10px;
+            }
+            .cw-logo{
+                margin-top: 10px;
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                background-image: url(../img/social/cro-webdesing-logo-black.png);
+                background-size: cover;
+                transition: background-image 0.4s all 0.4s cubic-bezier(.25,.8,.25,1);
+                -webkit-transition: background-image 0.4s all 0.4s cubic-bezier(.25,.8,.25,1);
+                -moz-transition: background-image 0.4s all 0.4s cubic-bezier(.25,.8,.25,1);
+            }
+            .cw-logo:hover{
+                display: inline-block;
+                background-image: url(../img/social/cro-webdesing-logo.png);
+
+            }
            
          }
      }    
