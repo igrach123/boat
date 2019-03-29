@@ -1,4 +1,4 @@
- <header class="" id="home">
+ <header class="" id="home-hr">
                 <nav class="navbar navbar-default" data-nav-status="toggle" role="navigation" data-spy="affix" id="myNavbar" >
                   <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -15,23 +15,24 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class=" nav navbar-nav navbar-left">
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home" class="scroll ">HOME</a></li>
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services" class="scroll">EXCURSIONS</a></li>
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">RENT</a></li> 
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home" class="scroll ">NASLOVNICA</a></li>
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services" class="scroll">IZLETI</a></li>
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">NAJAM</a></li> 
                                 
                        </ul>
                        <ul class=" nav navbar-nav navbar-right">
                        
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">TAXI BOAT</a></li> 
                             
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">CONTACT</a></li>
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">KONTAKT</a></li>
                             <li id="lang-id">
                                 <div class="dropdown language">
-                                    <button class="btn btn-warning btn-xs dropdown-toggle language" type="button" data-toggle="dropdown">EN
+                                    <button class="btn btn-warning btn-xs dropdown-toggle language" type="button" data-toggle="dropdown">HR
                                         <span class="caret"></span>
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a href="hr/index.php">HR</a></li>
+                                        <li><a href="../index.php">EN</a></li>
+
                                     </ul>
                                 </div>
                             </li>
@@ -46,7 +47,7 @@
          <!--video backgorund-->
            <div class="overlay hidden-xs"></div>
               <video class="hidden-xs hidden-sm" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="video/sunset.mp4" type="video/mp4">
+                <source src="../video/sunset.mp4" type="video/mp4">
               </video>
               <div class="container">
                 <div class="text-center align-items-center">

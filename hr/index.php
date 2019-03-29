@@ -4,7 +4,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="hr"> <!--<![endif]-->
 
     <head>
             <meta charset="utf-8">
@@ -39,19 +39,19 @@
             <meta http-equiv="content-language" content="hr,en">
             <!-- sharethis javascript gdpr -->
             <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=gdpr-compliance-tool' async='async'></script>
-            <link rel="stylesheet" href="css/bootstrap.min.css">
-            <link rel="stylesheet" href="css/font-awesome.min.css">
-            <link rel="stylesheet" href="css/assets/animate.min.css">
-            <link rel="stylesheet" href="css/assets/blueimp-gallery.min.css">
-            <link rel="stylesheet" href="css/assets/blueimp-gallery-indicator.css">   
-            <link rel="stylesheet" href="css/assets/blueimp-gallery-video.css">
-            <link rel="stylesheet" href="css/owl.carousel.min.css">
-            <link rel="stylesheet" href="css/owl.theme.min.css">
-            <link rel="stylesheet" href="css/owl.transitions.min.css">
-            <link rel="stylesheet" href="form.css" >
+            <link rel="stylesheet" href="../css/bootstrap.min.css">
+            <link rel="stylesheet" href="../css/font-awesome.min.css">
+            <link rel="stylesheet" href="../css/assets/animate.min.css">
+            <link rel="stylesheet" href="../css/assets/blueimp-gallery.min.css">
+            <link rel="stylesheet" href="../css/assets/blueimp-gallery-indicator.css">   
+            <link rel="stylesheet" href="../css/assets/blueimp-gallery-video.css">
+            <link rel="stylesheet" href="../css/owl.carousel.min.css">
+            <link rel="stylesheet" href="../css/owl.theme.min.css">
+            <link rel="stylesheet" href="../css/owl.transitions.min.css">
+            <link rel="stylesheet" href="../form.css" >
             <!--main stylesheet-->
-            <link rel="stylesheet" href="css/style.css">
-            <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+            <link rel="stylesheet" href="../css/style.css">
+            <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
             
 
         </head>
@@ -85,7 +85,7 @@
         <?php include "php/galery.php"?>
         <!-- modal -->
 
-        <?php include "php/cjenik-bikes.php"?>
+
 
         <!-- unutra je samo div koji nesto zatvara -->
         <?php include "php/partner-slide.php" ?>  
@@ -93,11 +93,11 @@
         <?php include "footer.php"?>
         
         <!--JavaScript, jquerry and plugins-->
-        <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="form.js"></script>
+        <script src="../js/vendor/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../form.js"></script>
         
-        <script src="js/main-js-backup-min.js"></script>
+        <script src="../js/main-js-backup-min.js"></script>
 
   </body>
 </html>
