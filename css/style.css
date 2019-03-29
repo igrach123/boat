@@ -1201,7 +1201,7 @@ header {
     font-family: "Roboto", sans-serif !important;
     font-weight: 100;
     font-size: 3rem;
-    letter-spacing: 12px; }
+    letter-spacing: 20px; }
   @media only screen and (min-width: 320px) {
     header {
       background: #000 url("../img/hero-bg-m.jpg") no-repeat center;
@@ -1558,7 +1558,6 @@ header {
     border-radius: 5px;
     transition: all 0.3s ease-in-out; }
     #services .t-1 h3, #services .t-2 h3, #services .t-3 h3, #services .t-4 h3 {
-      font-family: "Abagil Fontface" ,sans-serif;
       color: #fcb61d;
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
   #services .t-1 {
@@ -1584,7 +1583,7 @@ header {
   #services .time {
     display: block;
     background-color: rgba(0, 210, 255, 0.5);
-    padding: 5px 10px 5px 10px;
+    padding: 15px 10px 15px 10px;
     border-radius: 5px;
     margin-bottom: 25px;
     margin-top: 25px; }
@@ -2188,10 +2187,11 @@ header {
     #footer-bottom p {
       display: inline-block;
       font-size: 65%; }
-    #footer-bottom .footer-bottom-center p {
-      margin-top: 20px;
-      font-family: "Abril Fatface", sans-serif;
-      color: #FFFFFF; }
+    #footer-bottom .footer-bottom-center {
+      line-height: 500%; }
+      #footer-bottom .footer-bottom-center p {
+        font-family: "Abril Fatface", sans-serif;
+        color: #FFFFFF; }
     #footer-bottom img {
       width: 60px;
       margin: 0 auto;

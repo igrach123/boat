@@ -14,7 +14,7 @@
                 <br><br>
                
                 <div class="text-center">
-                    <a href="#najam-plovila" class="btn btn-primary riplle-effect" data-toggle="modal" role="button" data-target="#najam-plovila">Više..</a>
+                    <a href="#najam-plovila" class="btn btn-primary riplle-effect" data-toggle="modal" role="button" data-target="#najam-plovila">MORE <span class="fa fa-angle-right"></span></a>
                 </div>
                 <br>
 				
@@ -32,7 +32,7 @@
                     </div>
                 <br><br>
                             <div class="text-center">
-                                <a href="#taxi-boat" class="btn btn-primary riplle-effect" data-toggle="modal" role="button" data-target="#taxi-boat">Više..</a>
+                                <a href="#taxi-boat" class="btn btn-primary riplle-effect" data-toggle="modal" role="button" data-target="#taxi-boat">MORE <span class="fa fa-angle-right"></span></a>
                             </div>
                             <br>
 							
