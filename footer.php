@@ -65,7 +65,12 @@
                                      </li>
                                      <hr>
                                      <li><h5>PRATITE NAS</h5></li>
-                                     <li> <a href="https://www.facebook.com/boatexcursionsTonka/" target="_blank"><span class="fa fa-facebook-f"></span> boatexcursionsTonka </a> | <a href="https://www.instagram.com/boatexcursionstonka/?hl=en" target="_blank"><span class="fa fa-instagram"></span> boatexcursionsTonka </a> </li>
+                                     <li class="social-media-bottom"> 
+                                         <a  class="facebook" href="https://www.facebook.com/boatexcursionsTonka/" target="_blank"></a> 
+                                         
+                                          <a class="instagram" href="https://www.instagram.com/boatexcursionstonka/?hl=en" target="_blank"></a> 
+                                        
+                                        </li>
 
                         </ul>                              
                     </div>

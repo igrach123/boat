@@ -1797,6 +1797,13 @@ header {
     #rent .rent-wrapper {
       margin: 0 auto;
       max-width: 1920px; } }
+  #rent .rent-front {
+    background-color: rgba(0, 210, 255, 0.5);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 25px;
+    font-weight: 900; }
   #rent #najam {
     padding-bottom: 40px; }
     #rent #najam h2 {
@@ -2079,6 +2086,28 @@ header {
 
 #footer {
   color: rgba(0, 0, 0, 0.87); }
+  #footer .facebook {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/social/facebook-logo.png");
+    background-position: center center;
+    background-size: cover;
+    margin: 5px;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  #footer .facebook:hover {
+    background-image: url("../img/social/facebook.png"); }
+  #footer .instagram {
+    display: inline-block;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/social/instagram-logo.png");
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  #footer .instagram:hover {
+    background-image: url("../img/social/instagram.png"); }
   #footer .kontakti-wrapper {
     max-width: 1920px;
     margin: 0 auto;

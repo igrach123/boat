@@ -15,6 +15,31 @@
       Nudimo Vam mogućnost cjelodnevnog ili poludnevnog najma sa skiperom.
       <br> <br>
       <b>Za sve ostale informacije stojimo Vam na raspolaganju.</b>
+      <hr>
+
+              <p class="text-center h7">CJENIK</p>
+          <div class="table-responsive">
+          <table class="table table-hover table-striped">
+            <thead>
+              <tr>
+                <th scope="col">RENT SA SKIPEROM <br>1h</th>
+                <th scope="col">RENT SA SKIPEROM <br>2h</th>
+                <th scope="col">RENT SA SKIPEROM <br>4h</th>
+                <th scope="col">RENT SA SKIPEROM <br>6h</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>     
+                <td>750,00 HRK</td>
+                <td>1500,00 HRK</td>
+                <td>2250,00 HRK</td>
+                <td>3750,00 HRK</td>
+              
+              </tr>
+            </tbody>
+          </table>
+          </div>
 
 
     </p>

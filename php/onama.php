@@ -8,7 +8,7 @@
           
             <div class="col-sm-4">
               <div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N7itRIpXRIw?rel=0;autoplay=0" frameborder="0" allowfullscreen=""></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ryJQj2V_jw8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			 </div>
             </div>
 
