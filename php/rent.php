@@ -3,11 +3,11 @@
 		<div class="row rent-wrapper ">
 			<!-- najam plovila -->
 			<div id="najam" class="col-xs-12 col-sm-6 text-center" data-mh="my-rent-group">
-                <h2>NAJAM GLISERA</h2>
+                <h2>RENT A SPEEDBOAT</h2>
                 <div class="rent-front">
                     <P>SPEEDBOAT "TONKA"</P>
                     <P>200 kW</P>
-                    <P>12 OSOBA MAX</P>
+                    <P>12 PERSONS MAX</P>
                     <P>SKIPPER</P>
                 </div>
              
@@ -27,7 +27,7 @@
                     <div class="rent-front">
                         <P>SPEEDBOAT "TONKA"</P>
                         <P>200 kW</P>
-                        <P>12 OSOBA MAX</P>
+                        <P>12 PERSONS MAX</P>
                         <P>SKIPPER</P>
                     </div>
                 <br><br>

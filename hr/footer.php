@@ -10,7 +10,6 @@
 
                     <div class="col-md-4">
                             <h4 class="text-center ">Pošaljite nam upit!</h4>
-                            
                             <form role="form" method="post" id="reused_form" >
                                 <div class="form-group">
                                     <input placeholder="Ime" type="text" class="form-control" id="name" name="name" required maxlength="50">
@@ -36,8 +35,8 @@
                                 </div>
                                 
                             </form>
-                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Poruka uspješno poslana</h3> </div>
-                            <div id="error_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-danger">Greška</h3>Pkušajte ponovno, ili refrešajte stranicu i formu. </div>
+                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Poruka uspješno poslana, <br> odgovorit će mo u što kraćem roku.</h3> </div>
+                            <div id="error_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-danger">Greška</h3>Pkušajte ponovno, ili stisnite F5 da refrešate stranicu i formu. </div>
                     </div>
                     <div class="col-md-4 contact-info">
                         <h4 class="text-center">
@@ -65,10 +64,9 @@
                                      </li>
                                      <hr>
                                      <li><h5>PRATITE NAS</h5></li>
-                                     <li class="social-media-bottom"> 
-                                         <a  class="facebook" href="https://www.facebook.com/boatexcursionsTonka/" target="_blank"></a> 
-                                         
-                                          <a class="instagram" href="https://www.instagram.com/boatexcursionstonka/?hl=en" target="_blank"></a> 
+                                     <li class="social-media-bottom">  
+                                          <a class="instagram" href="https://www.instagram.com/boatexcursionstonka/?hl=en" target="_blank"></a>
+                                          <a  class="facebook" href="https://www.facebook.com/boatexcursionsTonka/" target="_blank"></a>  
                                         
                                         </li>
 

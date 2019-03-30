@@ -1,29 +1,28 @@
 
-<!-- modal KUPANJE NA OTOCIMA -->
+<!-- modal KUPANJE NA OTOCIMA ENG-->
 <div id="services-kayaking" class="modal fade" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content" >
+        <div class="modal-content text-justify" >
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
-                <h4 class="modal-title">KUPANJE NA OTOCIMA</h4>
+                <h4 class="modal-title">ISLANDS SWIMMING</h4>
             </div>
             <div class="modal-body">
-            <h5 class="services-sm-title">OPIS IZLETA</h5>
+            <h5 class="services-sm-title">ABOUT</h5>
             
-            <p class="text-muted">Polazak broda iz Valdibore i mola Delfin u jutarnjim satima.
-                Panoramska vožnja oko staroga grada i Rovinjskih otoka sve do otoka Sv. Ivan. Na otoku slobodno vrijeme za šetnju, kupanje, ronjenje u trajanju od 1:30 sati.
-                Nakon toga odlazak prema otoku Dvije Sestrice uz posluživanje „kanapea“ i pića. Slijedi pauza od 30 min. za kupanje na pitoresknoj plaži.
-                Povratak u Valdiboru uz voćno osvježenje. <br>
-                <b> Veselimo se vašem dolasku.</b>
+            <p class="text-muted">A scenic boat tour around the old town of Rovinj and its islands, to the island of Sv. Ivan, where you have leisure time for exploring the nature, swimming and diving in the clear sea, or just enjoying the sunshine and the views of the nearby lighthouse.
+                Our next stop is the island of Dvije Sestrice (the Two Sisters), and on the drive there we serve you delicious canapés and drinks. Next is a 30-minute break for a swim in the turquoise sea of the picturesque cove between the islands where you can explore the interesting underwater flora and fauna. After the day in the sun, we refresh you with some chilled fresh fruit whilst driving back to Rovinj.
+                <br><br>
+                <b> Departure from parking Valdibora in the morning, and return to Rovinj around lunch time.</b>
             </p>
             <hr> 
-            <p class="text-muted"><b>CIJENA ZA MIMIMUM 10 OSOBA</b>  ODRASLI <span class="badge badge-info">200,00 kn </span>  / DJECA <span class="badge badge-info">100,00 kn</span> </p>
+            <p class="text-muted"><b>PRICE</b>  ADULTS <span class="badge badge-info">200,00 kn </span>  KIDS <span class="badge badge-info">100,00 kn</span> </p>
       <div class="pmd-card-actions col-xs-6">
         <div class="sharethis-inline-share-buttons"></div> 
      </div> 
      
      <div class="modal-footer row">
-       <button type="button" class="btn btn-primary" data-dismiss="modal">Zatvori</button>
+       <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
     </div>
             </div><!-- MODAL BODY -->
         </div>  <!-- modal content -->

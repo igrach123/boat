@@ -2,7 +2,7 @@
 
 <section class="container-fluid" id="services">
 
-		<h2>IZLETI</h2>
+		<h2>EXCURSIONS</h2>
 		<div class="container">
 			<div class="row izleti-row">
 
@@ -11,7 +11,7 @@
 					<div class="t-1 card-2" data-mh="my-group">
 							
 						
-							<h3 class="title">ZALAZAK SUNCA & DELFINI</h3>
+							<h3 class="title">SUNSET & DOLPHINS</h3>
 							<br>
 							<p>Rovinj panorama at sunset</p>
 							<p>Dolphins spotting</p>
@@ -21,7 +21,7 @@
 						
 
 							<div class="">
-					    		<a href="#services-windsurf" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-windsurf">Više <span class="fa fa-angle-right"></span></a>
+					    		<a href="#services-windsurf" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-windsurf">More <span class="fa fa-angle-right"></span></a>
 					        
 					    	</div>
 
@@ -30,7 +30,7 @@
 				<!-- island swimming -->
 				<div class="col-sm-4  service-wrap t-2-wrapper" >
 					<div class="t-2 card-2" data-mh="my-group">
-						<h3 class="title">KUPANJE NA OTOCIMA</h3>
+						<h3 class="title">ISLANDS SWIMMING</h3>
 						<br>
 						<p>Rovinj panorama</p>
 						<p>Swimming on Sv Ivan</p>
@@ -42,7 +42,7 @@
 
 						<!-- Card action -->
 						<div class="">
-							<a href="#services-kayaking" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-kayaking">Više <span class="fa fa-angle-right"></span></a>
+							<a href="#services-kayaking" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-kayaking">More <span class="fa fa-angle-right"></span></a>
 							
 						</div>
 					</div>
@@ -60,7 +60,7 @@
 						<p class="time">MONDAY, THURSDAY, SATURDAY <br> 13:30h - 18:00h</p>
 							<!-- Card action -->
 						<div class="">
-					    	<a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-bike">Više <span class="fa fa-angle-right"></span></a>
+					    	<a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-bike">More <span class="fa fa-angle-right"></span></a>
 					    	
 					    </div>
 					</div>
@@ -68,7 +68,7 @@
 			</div>
 			<div class="text-center">
 				<br><br>
-			<a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="btn btn-default  scroll" role="button" >REZERVIRAJ ODMAH <span class="fa fa-angle-right"></span></a>
+			<a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="btn btn-default  scroll" role="button" >BOOK NOW <span class="fa fa-angle-right"></span></a>
 			</div>
 		</div>
 </section>

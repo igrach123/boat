@@ -12,12 +12,12 @@
             <div class="modal-body">
             <!-- <img  class="img-responsive lazy-img" src="img/windsurf/windsurf1.jpg" data-echo="img/windsurf1.jpg" alt="Premantura"> -->
 
-            <p class="muted">
-               <b> Na Vaš poziv vršimo usluge taxiranja morem.</b> <br>
-                Brzo i sigurno plovite rovinjskim arhipelagom.
-                Vrsar,Poreč,Limski kanal,Brijuni - sve je blizu morskim putem. <br> <br>
-                <span class="text-muted">CIJENA PO DOGOVORU <br>
-                <b>Za sve ostale informacije stojimo Vam na raspolaganju.</b>
+            <p class=" text-muted">
+                 Want to skip the car traffic on the hot roads and travel fast and fresh on the sea?
+                    We offer taxi boat services for a quick and safe transfer through the Rovinj archipelago.
+                    <br> <br>
+                <span class="text-muted">PRICE PER AGREEMENT <br>
+                <b>For all other information don't hesitate to contact us.</b>
                 </span>
                     
                 </p>

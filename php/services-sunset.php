@@ -1,28 +1,30 @@
 
 
 
-<!--ZALAZAK SUNCA MODAL -->
+<!--ZALAZAK SUNCA MODAL ENG -->
 <div id="services-windsurf" class="modal fade" role="dialog" aria-labelledby="myModalLabel" tabindex="-1" role="document">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content" >
+        <div class="modal-content text-justify" >
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
-                <h4 class="modal-title">ZALAZAK SUNCA I DELFINI</h4>
+                <h4 class="modal-title">SUNSET & DOLPHINS</h4>
             </div>
     <div class="modal-body">
-    <h5 class="services-sm-title">OPIS IZLETA</h5>
-            <p class="text-muted"> Panoramska vožnja brodom oko staroga grada i Rovinjskih otoka sa zalaskom sunca. Tijekom izleta česti susreti sa radoznalim i zaigranim delfinima.
-            Povratkom prema luci doživjet ćete romantičnu i nezaboravnu sliku grada Rovinja noću.
+    <h5 class="services-sm-title">ABOUT</h5>
+            <p class="text-muted"> Scenic boat ride around the old town of Rovinj and its islands at sunset. Amazing photo opportunities for that perfect sunset selfie!
+                If we are lucky, during the trip we will be able to spot curious and playful dolphins on their evening swim around the islands.
+                On the drive back to the harbour you will experience the romantic and unforgettable view of Rovinj at night.
+
             </p>
             <hr>
-        <p class="text-muted"><b>CIJENA ZA MIMIMUM 10 OSOBA</b>  ODRASLI <span class="badge badge-info">100,00 kn </span>  / DJECA <span class="badge badge-info">50,00 kn</span> </p>
+        <p class="text-muted"><b>PRICE</b>  ADULTS <span class="badge badge-info">100,00 kn </span>  KIDS <span class="badge badge-info">50,00 kn</span> </p>
 
       <div class="pmd-card-actions col-xs-6">
          <div class="sharethis-inline-share-buttons"></div>
      </div>  
      
      <div class="modal-footer">
-       <button type="button" class="btn btn-primary" data-dismiss="modal">Zatvori</button>
+       <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
     </div>
           </div><!-- MODAL BODY -->
         </div>  <!-- modal content -->

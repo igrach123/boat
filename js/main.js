@@ -94,15 +94,14 @@ $(function() {
 var header = $('#lang-id');
 $(window).scroll(function() {
 var scroll = $(window).scrollTop();
-
-if (scroll >= 150) {
-    header.addClass('smaller');
-   
-} else {
-    header.removeClass('smaller');
-    
-}
-});
+                            if (scroll >= 150) {
+                                header.addClass('smaller');
+                            
+                                } else {
+                                header.removeClass('smaller');
+                                
+                                }
+                            });
 });
 
 
@@ -114,6 +113,7 @@ $('.maps iframe').css("pointer-events", "auto");
 $( ".maps" ).mouseleave(function() {
 $('.maps iframe').css("pointer-events", "none"); 
 });
+
 
 // closen hamburger nav on click
 $(function() {
