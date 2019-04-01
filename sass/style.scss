@@ -386,13 +386,18 @@ header{
     background-color: transparent;
 	}
 	.navbar-nav{
+       
+
 		li{
-			a{
-			 display: inline-block;
-			 position: relative;
-			 padding-top: 5px;
-			 padding-bottom: 5px;
-			}
+        @include sm {
+            a{
+                display: inline-block;
+                position: relative;
+                padding-top: 5px;
+                padding-bottom: 5px;
+               }
+        }
+		
 		}  
 	}	
 	@include xxs {
@@ -572,13 +577,13 @@ header{
 //language button
 @include xxs {
      #lang-id{
-        
+        margin-top: 15px;
         margin-left: 4%;
         font-size: 18px;
 
         .language button{
             color:$second;
-            background-color: inherit;
+            background-color: $water-blue;
             border:0px;
             padding:5px 10px 5px 10px;
             transition:  0.3s ease-in-out;
@@ -586,7 +591,7 @@ header{
             -moz-transition:  0.3 s ease-in-out;  
             font-size: 14px;
             font-weight: bolder;
-            border: 1px solid $main-orange;
+            border: 1px solid $water-blue;;
         }
 
         .language button:hover{
@@ -635,7 +640,7 @@ header{
 
 @include sm {
     #lang-id{
-       
+        margin-top: 0px;
         margin-left: 0%;
 
         .language button{
@@ -650,7 +655,7 @@ header{
 
         .language button:hover{
             color:$bg-white;
-            background-color: $main-orange;
+            background-color: $water-blue;
             border:0px;
             padding: 1px;    
         }
@@ -1464,7 +1469,6 @@ h3{
 //******************FOOTER SECTION *********************//
 
 #footer{
-	
     color: $primary;
     .facebook{
         display: inline-block;
@@ -1496,8 +1500,8 @@ h3{
     .kontakti-wrapper{
         max-width: 1920px;
         margin:0 auto;
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding-bottom: 80px;
+        padding-top: 80px;
     }
     .contact-info{
        hr{
@@ -1598,7 +1602,7 @@ h3{
     @include xxs {   
             p{
             display: inline-block;
-            font-size: 65%;
+            font-size: 85%;
 
             }
             .footer-bottom-center{
