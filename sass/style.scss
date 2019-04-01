@@ -1194,9 +1194,21 @@ h3{
 }
 
 .google-maps {
+    @include xxs{
+        height: 250px; 
+    }
+    @include xs{
+        height: 300px; 
+    }
+    @include sm{
+        height: 350px; 
+    }
+    @include md{
+        height: 400px; 
+    }
     position: relative;
     overflow: hidden;
-    height: 400px;
+  
 }
 // promo section
 #promo{
@@ -1220,6 +1232,10 @@ h3{
 
 // o nama
 #onama{
+    h3{
+        color: $main-blue;
+        padding-bottom: 20px;
+    }
     padding-top: 80px;
     padding-bottom: 80px;
     background-color:$bg-white;
@@ -1244,8 +1260,9 @@ h3{
     background-color:$torkis-blue;
     background:$blue-green-gradient;
     h3{
+        margin-bottom: 20px;
         text-align: center;
-        color: $blue-100;
+        color: $bg-white;
     }
     @include xxs {
         .cjenik-btn{
@@ -1510,18 +1527,39 @@ h3{
          
        }
     }
+    .contact-list{
+        li{
+            h5{
+                span{
+                    color: $main-blue;
+                    margin-right: 5px;
+                }
+                .fa-whatsapp{
+                    margin-left: 5px;
+                }
+            } 
+        }
+    }
 	h2{
 		color:$bg-white;
 	}
 	h4{
-        padding-top: 15px;
+        @include xxs{
+            padding-top: 80px;  
+        }
+        @include md{
+            padding-top: 15px; 
+        }
+
+        
+       margin-bottom: 20px;
 		color:$main-blue;
 		padding-bottom: 10px;
 		text-transform: uppercase;
 
 	}
 	h5{
-		color:$torkis-blue;
+		color:$main-orange;
         font-weight: bolder;
 	}
 	@include xxs {
