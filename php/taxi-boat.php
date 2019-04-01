@@ -30,6 +30,7 @@
         <div class="sharethis-inline-share-buttons"></div> 
      </div>  
      <div class="modal-footer row">
+     
        <button type="button" class="btn btn-primary" data-dismiss="modal">Zatvori</button>
     </div>
             </div><!-- MODAL BODY -->
