@@ -819,6 +819,7 @@ header{
     background-attachment: fixed;
     background-size: cover;
 
+   
 
     h2{color:$main-blue;} 
     .izleti-row{
@@ -832,7 +833,9 @@ header{
     // services home section
     @import "imghover";
  
-
+.btn-services{
+    margin-bottom: 20px;
+}
 .pmd-card{  
     border-radius: 0px 0px 5px 5px;
 }
@@ -849,6 +852,10 @@ h3{
     border-radius: 5px;
     margin-bottom: 25px;
     margin-top: 25px;
+}
+.every-day{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 //CIJENA
 
@@ -895,8 +902,15 @@ h3{
                          0px 18px 23px rgba(0,0,0,0.1);
         color: $main-orange;
         vertical-align:middle; /*middle centred*/
-        padding-top: 125px;
+        @include xxs{
+            padding-top: 75px;
+        padding-bottom: 75px;
+        }
+        @include md{
+            padding-top: 125px;
         padding-bottom: 125px;
+        }
+        
     }
   //modal button close desing
   .close {
