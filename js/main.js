@@ -30,11 +30,12 @@ $(function() {
 $(document).ready(function(){
 $("#testimonial-slider").owlCarousel({
 items:3,
+itemsTablet:[767,2],
+itemsDesktopSmall:[979,3],
 responsiveClass:true,
-itemsDesktop:[1000,3],
-itemsDesktopSmall:[979,2],
-itemsTablet:[767,1],
+
 pagination:false,
+stopOnHover:true,
 transitionStyle:"fade",
 navigation:true,
 navigationText:[

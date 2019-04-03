@@ -37,8 +37,9 @@
             <meta name="keywords" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj ,Limski kanal, Hrvatska, Najam Glisera, Izlet Gliserom">
             <meta name="description" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj , Najam Glisera Limski kanal, Izlet Gliserom">
             <meta http-equiv="content-language" content="hr,en">
+           
+            <link rel="stylesheet" type="text/css" href="//cdnpub.websitepolicies.com/lib/cookieconsent/1.0.1/cookieconsent.min.css"/><script src="//cdnpub.websitepolicies.com/lib/cookieconsent/1.0.1/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"position":"bottom","colors":{"popup":{"background":"#1c1f4b","text":"#ffffff"},"button":{"background":"#afb3e4","text":"#000000","border":"transparent"}},"content":{"href":"#privacy-plicy","dismiss":"I Accept"}})});</script>
             <!-- sharethis javascript gdpr -->
-            <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=gdpr-compliance-tool' async='async'></script>
             <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=inline-share-buttons' async='async'></script>
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
