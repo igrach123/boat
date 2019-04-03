@@ -89,6 +89,7 @@
 
         <!-- unutra je samo div koji nesto zatvara -->
         <?php include "php/partner-slide.php" ?>  
+        <?php include "php/privacy-policy.php" ?>  
   
         <?php include "footer.php"?>
         

@@ -105,6 +105,8 @@ var scroll = $(window).scrollTop();
 });
 
 
+  //show this modal for privacy on scroll////////////////////
+
 /*maps unclickable*/
 $('.maps').click(function () {
 $('.maps iframe').css("pointer-events", "auto");

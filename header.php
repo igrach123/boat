@@ -1,4 +1,5 @@
  <header class="" id="home">
+    
                 <nav class="navbar navbar-default" data-nav-status="toggle" role="navigation" data-spy="affix" id="myNavbar" >
                   <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -66,3 +67,11 @@
                 </div>
               </div>                                   
     </header>
+
+    <!-- <div class="alert alert-danger alert-dismissible fade in" role="alert"> 
+    <div class="container">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button> <h4>We value your privacy</h4> <p>In order to run a successful website, we and certain third parties are setting cookies and accessing and storing information on your device for various purposes. Various third parties are also collecting data to show you personalized content and ads.</p> <p> <button type="button" class="btn btn-danger">PRIVACY POLICY</button> <button type="button" class="btn btn-default" type="button" class="close" data-dismiss="alert" aria-label="Close">I ACCEPT</button> </p> 
+      </div>
+ 
+    </div>
+     -->
