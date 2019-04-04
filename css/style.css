@@ -2404,4 +2404,9 @@ body.modal-open[style] {
   padding-top: 10px;
   padding-bottom: 20px; }
 
+.pp-header {
+  background: #000 url("../img/hero-bg-m.jpg") no-repeat center;
+  background-size: cover;
+  color: #FFFFFF; }
+
 /*# sourceMappingURL=style.css.map */

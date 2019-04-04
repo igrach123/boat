@@ -1,15 +1,77 @@
-    <!-- modal KUPANJE NA OTOCIMA ENG-->
-<div id="privacy-policy" class="modal fade" role="dialog" aria-labelledby="myModalLabel" displayed="false">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content text-justify" >
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
-                <h4 class="modal-title">PRIVACZ PLICY</h4>
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <title>Privacy Policy - BoatExcursions Tonka - Rovinj</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+         
+            <!-- favicon setup -->
+            <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+            <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+            <link rel="manifest" href="/manifest.json">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+            <meta name="theme-color" content="#ffffff">
+              <!-- end of favicon setup -->
+            <base href="#">
+            <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
+            <link href="../index.php" rel="alternate" hreflang="en"> 
+            <meta name="keywords" content="Boat Excursions Tonka - Privacy Policy / Pravila Privatnosti">
+            <meta name="description" content="Boat Excursions Tonka - Privacy Policy / Pravila Privatnosti">
+            <meta http-equiv="content-language" content="en,hr">
+  
+            <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+            <!--main stylesheet-->
+            <link rel="stylesheet" href="../css/style.css">
+            <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+            
+
+        </head>
+  <body data-spy="scroll" data-target="#myNavbar" data-offset="65" id="home-hr">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <?php include "../php/variables.php"; ?>
+                    <!-- modal KUPANJE NA OTOCIMA ENG-->
+<div id="privacy-policy" >
+            <div class="pp-header container-fluid">
+                <div class="container">
+                    <h2 class="pptitle">Cookie Policy for BoatExcursionsTonka</h2>
+                    
+                </div>
+               
             </div>
-            <div class="modal-body">
-            <h5 class="services-sm-title">Cookie Policy for BoatExcursionsTonka</h5>
-                                                       
-                    <p>This is the Cookie Policy for BoatExcursionsTonka, accessible from https://www.boatexcursionstonka.com/</p>
+            <div class="container">
+            <ol class="breadcrumb">
+                        <li><a href="../index.php">Home</a></li>
+                    
+                        <li class="active">Privacy-policy</li>
+                    </ol>   
+
+            </div>
+                
+                
+        <div class="container">
+                <p class="lead">This is the Cookie Policy for BoatExcursionsTonka, accessible from https://www.boatexcursionstonka.com/</p>
 
                     <p><strong>What Are Cookies</strong></p>
 
@@ -91,17 +153,30 @@
                     <li>Email: boatexcursionstonka@gmail.com</li>
 
                     </ul>
+                    
+                    
+        </div>                                     
+                    
 
                         
      
-     <div class="modal-footer row">
-        <div class="pmd-card-actions col-xs-6">
-            <div class="sharethis-inline-share-buttons"></div> 
-        </div> 
-       <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-    </div>
-            </div><!-- MODAL BODY -->
-        </div>  <!-- modal content -->
-    </div><!-- end  of Modal dialog -->
-</div>       
+
+    </div>       
+
+
+  
+  
+        <?php include "../footer.php"?>
+        
+        <!--JavaScript, jquerry and plugins-->
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
+
+
+
+
       
