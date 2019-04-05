@@ -19,6 +19,16 @@ echo.init({
 // wow reveal js
 new WOW().init();
 
+//show more on click o nama
+
+$(document).ready(function(){
+    $("#morebtn-hide").click(function(){
+      $("#showtext").hide();
+    });
+    $("#morebtn").click(function(){
+      $("#showtext").show();
+    });
+  });
 
 
 //match heoght group 1
@@ -29,9 +39,9 @@ $(function() {
 //Owl Carousel 2
 $(document).ready(function(){
 $("#testimonial-slider").owlCarousel({
-items:3,
-itemsTablet:[767,2],
-itemsDesktopSmall:[979,3],
+items:2,
+itemsTablet:[767,1],
+itemsDesktopSmall:[979,2],
 responsiveClass:true,
 
 pagination:false,
@@ -45,6 +55,7 @@ navigationText:[
 autoPlay:true
 });
 });
+
 
 
 //Navbar Scroll Event

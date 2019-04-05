@@ -5,37 +5,37 @@
 <div id="testimonial-slider" class="owl-carousel">
     <div class="testimonial">
         <div class="pic">
-         <a href="http://www.challengersails.com/en/" target="_blank">  <img src="img/partneri/logo-hot-maui-sails.jpg" alt="challenger sails" class="img-responsive"></a> 
+         <a href="img/partneri/Enio.jpg" target="_blank">  <img src="img/partneri/Enio.jpg" alt="Enio" class="img-responsive"></a> 
         </div>
-        <h3 class="testimonial-title">Challenger</h3> 
+        <h3 class="testimonial-title">Enio</h3> 
     </div>
 
     <div class="testimonial">
         <div class="pic">
-          <a href="http://www.flikkaboards.com/" target="_blank"> <img src="img/partneri/logo-flikka.jpg" alt="flikka" class="img-responsive"></a> 
+          <a href="img/partneri/Lara.jpg" target="_blank"> <img src="img/partneri/lara.jpg" alt="Lara" class="img-responsive"></a> 
         </div>
-        <h3 class="testimonial-title">Flikka Boards</h3>
+        <h3 class="testimonial-title">Lara</h3>
     </div>
     <div class="testimonial">
         <div class="pic">
-        <a href="http://www.ahd-boards.com/" target="_blank">
-            <img src="img/partneri/logo-ahd.jpg" alt="ahd" class="img-responsive">
+        <a href="img/partneri/kapetan_Mauro.jpg" target="_blank">
+            <img src="img/partneri/kapetan_Mauro.jpg" alt="Mauro" class="img-responsive">
          </a>   
         </div>
-        <h3 class="testimonial-title">Ahd Boards</h3> 
+        <h3 class="testimonial-title">kapetan Mauro</h3> 
     </div>
     <div class="testimonial">
         <div class="pic">
-         <a href="http://www.nahskwell-sup.com/" target="_blank">  <img src="img/partneri/logo-nah.jpg" alt="SUP" class="img-responsive"></a> 
+         <a href="img/partneri/Ville.jpg" target="_blank">  <img src="img/partneri/Ville.jpg" alt="Ville" class="img-responsive"></a> 
         </div>
-        <h3 class="testimonial-title">Nahskwell</h3> 
+        <h3 class="testimonial-title">Ville</h3> 
     </div>
     
     <div class="testimonial">
         <div class="pic">
-          <a href="https://www.nautix.com/" target="_blank"> <img src="img/partneri/logo-nautix.jpg" alt="nautix" class="img-responsive"></a> 
+          <a href="img/partneri/samanta.jpg" target="_blank"> <img src="img/partneri/samanta.jpg" alt="Samanta" class="img-responsive"></a> 
         </div>
-        <h3 class="testimonial-title">Nautix</h3>
+        <h3 class="testimonial-title">Samanta</h3>
     </div>
     <div class="testimonial">
         <div class="pic">

@@ -47,10 +47,11 @@
 
                         <ul class="list-unstyled contact-list text-left"> 
                                     <li><h5> <span class="fa fa-map-marker"></span> BOARDING POINT</h5></li>  
-                                    <li>Parking Vladibora - Rovinj North</li> 
+                                    <li class="text-muted">Rovinj's northern port "Valdibora</li>
+                                    <li class="text-muted">The tourist resort "Vilas Rubin"</li> 
                                     <hr>
                                     <li><h5><span class="fa fa-phone"></span> TEL /  <span class="fa fa-whatsapp"></span> WHATSAPP</h5> </li>
-                                    <li> <a href="tel:+385 (0)98441140"> +385 (0)98 441 140</a></li>
+                                    <li> <a href="tel:+385 (0)98441140" class="text-muted"> +385 (0)98 441 140</a></li>
                                     <hr>
                                     <li><h5><span class="fa fa-envelope-o"></span> EMAIL</h5></li>
                                      <li class="text-muted">

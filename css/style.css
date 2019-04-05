@@ -1932,6 +1932,8 @@ header {
   background-color: #FFFFFF;
   margin: 0 auto;
   max-width: 1920px; }
+  #onama #showtext {
+    display: none; }
   #onama h3 {
     color: #0f3756;
     padding-bottom: 20px; }
@@ -1970,7 +1972,6 @@ header {
   padding: 40px 20%; }
 
 .testimonial .pic {
-  width: 50px;
   border-radius: none;
   overflow: hidden;
   margin: 0 auto; }
@@ -2230,7 +2231,8 @@ header {
     #footer-bottom .footer-bottom-center {
       line-height: 500%; }
       #footer-bottom .footer-bottom-center p {
-        font-family: "Abril Fatface", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
         color: #FFFFFF; }
     #footer-bottom img {
       width: 60px;

@@ -1246,6 +1246,9 @@ h3{
 
 // o nama
 #onama{
+    #showtext{
+        display: none;
+    }   
     h3{
         color: $main-blue;
         padding-bottom: 20px;
@@ -1305,7 +1308,7 @@ h3{
     padding: 40px 20%;
 }
 .testimonial .pic{
-    width: 50px;
+    
     border-radius: none;
     overflow: hidden;
     margin: 0 auto;
@@ -1660,7 +1663,8 @@ h3{
             .footer-bottom-center{
                 line-height: 500%;
                 p{
-                    font-family: "Abril Fatface", sans-serif;  
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 100;  
                         color: $bg-white;
                     }
             }
