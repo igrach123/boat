@@ -1932,8 +1932,27 @@ header {
   background-color: #FFFFFF;
   margin: 0 auto;
   max-width: 1920px; }
+  #onama .badge {
+    padding: 5px 15px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #0f3756;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
   #onama #showtext {
-    display: none; }
+    display: none;
+    transition: display 0.3s ease-in-out; }
+  @media only screen and (min-width: 992px) {
+    #onama #showtext2 {
+      display: none;
+      transition: display 0.3s ease-in-out; } }
+  @media only screen and (min-width: 1440px) {
+    #onama #showtext2 {
+      display: inline;
+      transition: display 0.3s ease-in-out; } }
   #onama h3 {
     color: #0f3756;
     padding-bottom: 20px; }

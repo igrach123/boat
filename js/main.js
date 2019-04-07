@@ -29,6 +29,15 @@ $(document).ready(function(){
       $("#showtext").show();
     });
   });
+  
+$(document).ready(function(){
+    $("#morebtn-hide2").click(function(){
+      $("#showtext2").hide();
+    });
+    $("#morebtn2").click(function(){
+      $("#showtext2").show();
+    });
+  });
 
 
 //match heoght group 1

@@ -1246,8 +1246,32 @@ h3{
 
 // o nama
 #onama{
-    #showtext{
+    .badge{
+        padding: 5px 15px 5px;
+        font-size: 18px;
+        font-weight: bold;
+        white-space: nowrap;
+        color: #ffffff;
+        background-color:$main-blue;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    #showtext,{
         display: none;
+        transition: display 0.3s ease-in-out; 
+    }
+    @include md{
+        #showtext2{
+            display: none;
+            transition: display 0.3s ease-in-out; 
+        }
+    }
+    @include xlg{
+        #showtext2{
+            display: inline;
+            transition: display 0.3s ease-in-out; 
+        }
     }   
     h3{
         color: $main-blue;
@@ -1259,12 +1283,12 @@ h3{
     margin: 0 auto;
     max-width: 1920px;
     .onama-front{
-       @include xxs{
-           margin-bottom: 40px;
-       } 
-       @include sm{
-           margin-bottom: 0px;
-       } 
+        @include xxs{
+            margin-bottom: 40px;
+        } 
+        @include sm{
+            margin-bottom: 0px;
+        } 
     }
 }
 
