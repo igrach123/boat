@@ -33,14 +33,15 @@
               <!-- end of favicon setup -->
             <base href="#">
             <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
-            <link href="en/index.php" rel="alternate" hreflang="en"> 
-            <meta name="keywords" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj ,Limski kanal, Hrvatska, Najam Glisera, Izlet Gliserom">
-            <meta name="description" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj , Najam Glisera Limski kanal, Izlet Gliserom">
+            <link href="index.php" rel="alternate" hreflang="en"> 
+            <meta name="keywords" content="Boat Excursions Tonka, Boat trip,">
+            <meta name="description" content="Memorable Boat trip. Enjoy the Rovinj Arhipelago, watch a beautifull Sunset, see Dolphins for the first time and all in an relaxing atmosphere.">
             <meta http-equiv="content-language" content="hr,en">
            
             <link rel="stylesheet" type="text/css" href="//cdnpub.websitepolicies.com/lib/cookieconsent/1.0.1/cookieconsent.min.css"/><script src="//cdnpub.websitepolicies.com/lib/cookieconsent/1.0.1/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"position":"bottom","colors":{"popup":{"background":"#1c1f4b","text":"#ffffff"},"button":{"background":"#afb3e4","text":"#000000","border":"transparent"}},"content":{"href":"php/privacy-policy.php", "dismiss":"I Accept"}})});</script>
             <!-- sharethis javascript gdpr -->
             <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=inline-share-buttons' async='async'></script>
+            <!-- lilafete maps css -->
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
             <link rel="stylesheet" href="css/assets/animate.min.css">
@@ -95,6 +96,7 @@
         
         <!--JavaScript, jquerry and plugins-->
         <script src="js/vendor/jquery.min.js"></script>
+
         <script src="js/bootstrap.min.js"></script>
         <script src="form.js"></script>
         

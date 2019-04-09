@@ -1200,29 +1200,33 @@ h3{
     h4{
         
         background-image: url(../img/bike/bike-centar.jpg); 
-        background-size: cover;
+        background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
     }
 
 }
 
-.google-maps {
+
+#mapid{
     @include xxs{
-        height: 250px; 
+        height: 350px;
+        width: 100%; 
     }
-    @include xs{
-        height: 300px; 
-    }
+
     @include sm{
         height: 350px; 
     }
     @include md{
         height: 400px; 
-    }
-    position: relative;
-    overflow: hidden;
-  
+    }    
+}
+.map-bg{
+    background-image: url(../img/map2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+
 }
 // promo section
 #promo{
@@ -1257,21 +1261,22 @@ h3{
         -moz-border-radius: 5px;
         border-radius: 5px;
     }
-    #showtext,{
-        display: none;
-        transition: display 0.3s ease-in-out; 
-    }
-    @include md{
-        #showtext2{
+  
+    @include xxs{
+        #showtext{
             display: none;
             transition: display 0.3s ease-in-out; 
         }
     }
-    @include xlg{
-        #showtext2{
-            display: inline;
+    @include lg{
+        #showtext{
+            display: inline-block;
             transition: display 0.3s ease-in-out; 
         }
+    }
+    .video-bot{
+        margin-top: 40px;
+        padding-bottom: 40px;
     }   
     h3{
         color: $main-blue;
@@ -1322,6 +1327,10 @@ h3{
 }
 //****************PARTNERI SECTION*******************//
 #testimonial-slider{
+    background-color:$bg-white;
+    padding-top: 20px;
+}
+#testimonial-slider-hr{
     background-color:$bg-white;
     padding-top: 20px;
 }
@@ -1570,6 +1579,10 @@ h3{
     }
     .contact-list{
         li{
+            .small{
+                color:$bg-grey-strong;
+                margin-top: 20px;
+            }
             h5{
                 span{
                     color: $main-blue;
@@ -1579,7 +1592,11 @@ h3{
                     margin-left: 5px;
                 }
             } 
+        @include md{
+            text-align: left;
         }
+        }
+
     }
 	h2{
 		color:$bg-white;

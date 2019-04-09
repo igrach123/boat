@@ -153,20 +153,9 @@
                     <li>Email: boatexcursionstonka@gmail.com</li>
 
                     </ul>
-                    
-                    
-        </div>                                     
-                    
-
-                        
-     
-
+        </div>                                               
     </div>       
 
-
-  
-  
-        <?php include "../footer.php"?>
         
         <!--JavaScript, jquerry and plugins-->
         <script src="js/vendor/jquery.min.js"></script>
@@ -175,8 +164,3 @@
 
   </body>
 </html>
-
-
-
-
-      

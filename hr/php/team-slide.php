@@ -1,8 +1,8 @@
 
-<section class="" id="partneri">
+<section id="partneri-hr">
 
 <!-- OWL CAROUSEL -->
-<div id="testimonial-slider" class="owl-carousel">
+<div id="testimonial-slider-hr" class="owl-carousel">
 <div class="testimonial">
         <div class="pic">
          <a href="../img/partneri/Enio.jpg" target="_blank">  <img src="../img/partneri/Enio.jpg" alt="Enio" class="img-responsive "></a> 
@@ -39,11 +39,11 @@
     </div>
     <div class="testimonial">
         <div class="pic">
-        <a href="http://www.caas.si/" target="_blank">
-            <img src="../img/partneri/logo-caas.jpg" alt="Cass" class="img-responsive ">
+        <a href="../img/partneri/marija.jpg" target="_blank">
+            <img src="../img/partneri/marija.jpg" alt="Cass" class="img-responsive ">
          </a>   
         </div>
-        <h3 class="testimonial-title">Caas</h3> 
+        <h3 class="testimonial-title">Marija</h3> 
     </div>
         
 </div> <!-- END OF OWL CAROUSEL -->

@@ -4,9 +4,10 @@
 
                     <div class="col-md-4">
                     <h4 class="text-center ">Find Us</h4>
-                        <div class="google-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38094.689198160864!2d13.958886755066738!3d44.79294009379744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9544cb64a3fa26f9!2sRent+a+Bike+Centar!5e0!3m2!1sen!2shr!4v1522863383452" width="100%" height="600" frameborder="0" style="border:0" zoom="100" allowfullscreen></iframe>
-                        </div>
+                         <div id="mapid" class="map-bg">
+                        
+
+                         </div>
                     </div>
 
                     <div class="col-md-4">
@@ -40,21 +41,23 @@
                             <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Your message has been sent! </h3> </div>
                             <div id="error_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-danger">Error</h3>Try again or refresh the page! </div>
                     </div>
+
                     <div class="col-md-4 contact-info">
                         <h4 class="text-center">
                             Contact
                         </h4>
 
-                        <ul class="list-unstyled contact-list text-left"> 
-                                    <li><h5> <span class="fa fa-map-marker"></span> BOARDING POINT</h5></li>  
-                                    <li class="text-muted">Rovinj's northern port "Valdibora</li>
-                                    <li class="text-muted">The tourist resort "Vilas Rubin"</li> 
+                        <ul class="list-unstyled contact-list"> 
+                                    <li><h5> <span class="fa fa-map-marker"></span> BOARDING POINT - DIERCTIONS</h5></li>  
+                                    <li><a href="https://goo.gl/maps/Mky1RYunWfs" target="_blank">Rovinj's northern port "Valdibora"</a> </li>
+                                    <li><a href="https://goo.gl/maps/CipgQpZywKz" target="_blank">The tourist resort "Vilas Rubin"</a> </li>
+                                    <li><b><small cdlass="text-muted">CLICK FOR WAYPOINT</small></b></li> 
                                     <hr>
                                     <li><h5><span class="fa fa-phone"></span> TEL /  <span class="fa fa-whatsapp"></span> WHATSAPP</h5> </li>
-                                    <li> <a href="tel:+385 (0)98441140" class="text-muted"> +385 (0)98 441 140</a></li>
+                                    <li> <a href="tel:+385 (0)98441140" > +385 (0)98 441 140</a></li>
                                     <hr>
                                     <li><h5><span class="fa fa-envelope-o"></span> EMAIL</h5></li>
-                                     <li class="text-muted">
+                                     <li>
                                         <script TYPE="text/javascript">
                                         emailE=('boatexcursionstonka@' + 'gmail.com')
                                         document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')            

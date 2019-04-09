@@ -17,7 +17,7 @@
 							<p>Dolphins spotting</p>
 							<p>Evening Relax</p>
 							<br>
-							<p class="time">EVERY DAY</p>
+							<p class="time">SVKAI DAN</p>
 						
 
 							<div class="">
@@ -37,7 +37,7 @@
 						<p>Dvije Sestrice Island</p>
 						<p>Sendwiches, fruit,drink</p>
 				
-						<p class="time">TUESDAY, WEDNESDAY, FRIDAY,SUNDAY <br> 9:30h - 13:30h</p>
+						<p class="time">UTORAK, SRIJEDA, PETAK,NEDJELJA <br> 9:30h - 13:30h</p>
 						
 
 						<!-- Card action -->
@@ -57,7 +57,7 @@
 						<p>Lim Fjord & Pirate Cave</p>
 						<p>Welcome drink</p>
 						<br>
-						<p class="time">MONDAY, THURSDAY, SATURDAY <br> 13:30h - 18:00h</p>
+						<p class="time">PONEDJELJKA, ČETVRTAK, SUBOTA <br> 13:30h - 18:00h</p>
 							<!-- Card action -->
 						<div class="">
 					    	<a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-bike">Više <span class="fa fa-angle-right"></span></a>

@@ -33,9 +33,9 @@
               <!-- end of favicon setup -->
             <base href="#">
             <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
-            <link href="en/index.php" rel="alternate" hreflang="en"> 
+            <link href="hr/index.php" rel="alternate" hreflang="en"> 
             <meta name="keywords" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj ,Limski kanal, Hrvatska, Najam Glisera, Izlet Gliserom">
-            <meta name="description" content="Boat Excursions Tonka, Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj , Najam Glisera Limski kanal, Izlet Gliserom">
+            <meta name="description" content="Izlet brodom Rovinj Hrvatska, Romantičan izlet brodom,Taxi Boat, Rovinj , Najam Glisera Limski kanal, Izlet Gliserom">
             <meta http-equiv="content-language" content="hr,en">
             <!-- sharethis javascript gdpr -->
             <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=gdpr-compliance-tool' async='async'></script>

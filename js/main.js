@@ -30,14 +30,6 @@ $(document).ready(function(){
     });
   });
   
-$(document).ready(function(){
-    $("#morebtn-hide2").click(function(){
-      $("#showtext2").hide();
-    });
-    $("#morebtn2").click(function(){
-      $("#showtext2").show();
-    });
-  });
 
 
 //match heoght group 1
@@ -48,6 +40,25 @@ $(function() {
 //Owl Carousel 2
 $(document).ready(function(){
 $("#testimonial-slider").owlCarousel({
+items:2,
+itemsTablet:[767,1],
+itemsDesktopSmall:[979,2],
+responsiveClass:true,
+
+pagination:false,
+stopOnHover:true,
+transitionStyle:"fade",
+navigation:true,
+navigationText:[
+"<i class='fa fa-chevron-left fa-3x'></i>",
+"<i class='fa fa-chevron-right fa-3x'></i>"
+],
+autoPlay:true
+});
+});
+//Owl Carousel 1
+$(document).ready(function(){
+$("#testimonial-slider-hr").owlCarousel({
 items:2,
 itemsTablet:[767,1],
 itemsDesktopSmall:[979,2],
@@ -127,8 +138,8 @@ var scroll = $(window).scrollTop();
 
 
   //show this modal for privacy on scroll////////////////////
-
-/*maps unclickable*/
+  
+/*maps unclickable + google map 1*/
 $('.maps').click(function () {
 $('.maps iframe').css("pointer-events", "auto");
 });
@@ -137,6 +148,52 @@ $( ".maps" ).mouseleave(function() {
 $('.maps iframe').css("pointer-events", "none"); 
 });
 
+// //GOOGLE MAP 1
+// function initMap(){
+//   //options
+//   var options = {
+//     zoom:13,
+//     center:{lat:45.0740,lng:13.6548}
+//   }
+//   //map init
+//   var map = new google.maps.Map(
+//     document.getElementById("map1"), options);
+
+ 
+  
+//   //marker
+//   var marker1 = new google.maps.Marker({
+//     position:{lat:45.087466,lng:13.640614},
+//     map:map
+//   });
+
+//   var marker2 = new google.maps.Marker({
+//     position:{lat:45.060838,lng:13.665519},
+//     map:map
+//   });
+
+//   var infowWindow1 = new google.maps.InfoWindow({
+//     content:'<a href="https://goo.gl/maps/DfY4Ys1uGFn" target="_blank"> Rovinj s northern port Valdibora </a>',
+//   });
+//     marker1.addListener('click', function() {
+//       infoWindow1.open(map, marker1);
+//     });
+
+    
+//   var map2 = new google.maps.Map(
+//     document.getElementById("map2"), options);
+
+//     var marker3 = new google.maps.Marker({
+//       position:{lat:45.087466,lng:13.640614},
+//       map:map2,
+//     });
+  
+//     var marker4 = new google.maps.Marker({
+//       position:{lat:45.060838,lng:13.665519},
+//       map:map2,
+//     });  
+
+// };
 
 // closen hamburger nav on click
 $(function() {
