@@ -1211,14 +1211,36 @@ h3{
 #mapid{
     @include xxs{
         height: 350px;
-        width: 100%; 
+        width: 100%;
+      
+            .rovinj a{
+                display: block;
+               height: 175px;
+                width: 100%;
+             
+            }
+            .villas a{
+                display: block;
+                height: 175px;
+                width: 100%;
+              
+            }
     }
 
-    @include sm{
-        height: 350px; 
-    }
     @include md{
         height: 400px; 
+        .rovinj a{
+            display: block;
+             height: 200px;
+            width: 100%;
+          
+        }
+        .villas a{
+            display: block;
+            height: 200px;
+            width: 100%;
+           
+        }
     }    
 }
 .map-bg{
@@ -1537,6 +1559,9 @@ h3{
 
 #footer{
     color: $primary;
+
+
+
     .facebook{
         display: inline-block;
         width: 35px;

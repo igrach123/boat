@@ -5,7 +5,14 @@
                     <div class="col-md-4">
                     <h4 class="text-center ">Find Us</h4>
                          <div id="mapid" class="map-bg">
-                        
+                            <div class="row">
+                                <div class="col-xs-12 rovinj">
+                                    <a href="https://goo.gl/maps/Mky1RYunWfs" target="_blank"></a>
+                                </div>
+                                <div class="col-xs-12 villas">
+                                        <a href="https://goo.gl/maps/CipgQpZywKz" target="_blank"></a> 
+                                </div>
+                            </div>
 
                          </div>
                     </div>

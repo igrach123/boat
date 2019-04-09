@@ -1898,13 +1898,26 @@ header {
 @media only screen and (min-width: 320px) {
   #mapid {
     height: 350px;
-    width: 100%; } }
-@media only screen and (min-width: 768px) {
-  #mapid {
-    height: 350px; } }
+    width: 100%; }
+    #mapid .rovinj a {
+      display: block;
+      height: 175px;
+      width: 100%; }
+    #mapid .villas a {
+      display: block;
+      height: 175px;
+      width: 100%; } }
 @media only screen and (min-width: 992px) {
   #mapid {
-    height: 400px; } }
+    height: 400px; }
+    #mapid .rovinj a {
+      display: block;
+      height: 200px;
+      width: 100%; }
+    #mapid .villas a {
+      display: block;
+      height: 200px;
+      width: 100%; } }
 
 .map-bg {
   background-image: url(../img/map2.jpg);
