@@ -45,7 +45,7 @@
                                 </div>
                                 
                             </form>
-                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Your message has been sent! </h3> </div>
+                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Your message has been sent! <br> We will contact you shortly! </h3> </div>
                             <div id="error_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-danger">Error</h3>Try again or refresh the page! </div>
                     </div>
 

@@ -46,7 +46,7 @@
                                 </div>
                                 
                             </form>
-                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Poruka uspješno poslana</h3> </div>
+                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-success">Poruka uspješno poslana. <br> Javit će mo vams se u što kraćem roku! </h3> </div>
                             <div id="error_message" style="width:100%; height:100%; display:none; "> <h3 class="bg-danger">Greška</h3>Pkušajte ponovno, ili refrešajte stranicu i formu. </div>
                     </div>
                     <div class="col-md-4 contact-info">
