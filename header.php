@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                       <a class="logo" href="#" id="logo1"></a>
+                       <a class="logo" href="index.php" id="logo1"></a>
                     </div>
                    
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,7 +52,7 @@
               <div class="container">
                 <div class="text-center align-items-center">
                  
-                    <h1 class="hidden-xs">BOAT EXCURSIONS <br> <br>     
+                    <h1 class="hidden-xs">BOAT EXCURSIONS <br> 
                     <span class="small-premanutra hidden-xs">TONKA </span></h1> 
 
                     <div class="animated-arrow-down"> 

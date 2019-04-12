@@ -9,7 +9,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                       <a class="logo" href="#" id="logo1"></a>
+                       <a class="logo" href="index.php" id="logo1"></a>
                     </div>
                    
                     <!-- Collect the nav links, forms, and other content for toggling -->

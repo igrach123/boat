@@ -7,7 +7,7 @@
                          <div id="mapid" class="map-bg">
                             <div class="row">
                                 <div class="col-xs-12 rovinj">
-                                    <a href="https://goo.gl/maps/Mky1RYunWfs" target="_blank"></a>
+                                    <a href="https://goo.gl/maps/jTtigtuEDJu" target="_blank"></a>
                                 </div>
                                 <div class="col-xs-12 villas">
                                         <a href="https://goo.gl/maps/CipgQpZywKz" target="_blank"></a> 
@@ -56,7 +56,7 @@
 
                         <ul class="list-unstyled contact-list"> 
                                     <li><h5> <span class="fa fa-map-marker"></span> BOARDING POINT - DIERCTIONS</h5></li>  
-                                    <li><a href="https://goo.gl/maps/Mky1RYunWfs" target="_blank">Rovinj's northern port "Valdibora"</a> </li>
+                                    <li><a href="https://goo.gl/maps/jTtigtuEDJu" target="_blank">Rovinj's northern port "Valdibora"</a> </li>
                                     <li><a href="https://goo.gl/maps/CipgQpZywKz" target="_blank">The tourist resort "Vilas Rubin"</a> </li>
                                     <li><b><small cdlass="text-muted">CLICK FOR WAYPOINT</small></b></li> 
                                     <hr>
@@ -93,7 +93,7 @@
                    
                     
                             <div class="footer-bottom-left"><a href="index.php" target="_self"> 
-                                    <img src="img/logo-no-bg.png" class="img-responsive" alt="Boat Excursions Tonka logo"></a>
+                                    <img src="img/logo-small-3.png" class="img-responsive" alt="Boat Excursions Tonka logo"></a>
                             </div>
                              <div class="footer-bottom-center">
                                     <p class="text-center"><?php echo "$the_sitetitle"; ?>  &copy;  <span class="hidden-sm"> <?php echo date("Y"); ?> </span> </p>

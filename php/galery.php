@@ -36,10 +36,7 @@
                                             <a href="img/gallery/7.jpg" title="inflatable boat">
                                         <img src="img/gallery/7m.jpg" data-src="img/gallery/7m.jpg" class="img img-responsive img-rounded " alt="inflatable boat"></a>
                                     </div>
-                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="1s">
-                                            <a href="img/gallery/8.jpg" title="inflatable boat">
-                                        <img src="img/gallery/8m.jpg" data-src="img/gallery/8m.jpg" class="img img-responsive img-rounded " alt="inflatable boat"></a>
-                                    </div>
+                                    
                                     <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="1s">
                                             <a href="img/gallery/9.jpg" title="inflatable boat">
                                         <img src="img/gallery/9m.jpg" data-src="img/gallery/9m.jpg" class="img img-responsive img-rounded " alt="inflatable boat"></a>
