@@ -903,7 +903,7 @@ h3{
         color: $main-orange;
         vertical-align:middle; /*middle centred*/
         @include xxs{
-            padding-top: 75px;
+        padding-top: 75px;
         padding-bottom: 75px;
         }
         @include md{
@@ -1079,7 +1079,7 @@ h3{
     }
     .rent-front{
         background-color: $water-blue;
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         border-radius: 5px;
         padding: 25px;
@@ -1093,12 +1093,26 @@ h3{
        }
         @include xxs {
             background: url(../img/rent/najam-m.jpg) center no-repeat;
-            background-attachment:cover;
-            margin-bottom: 20px;
+            background-size:cover;
+            margin-bottom: 40px;
+            width: 76%;
+            margin-left: 12%;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        @include xs {
+            width: 86%;
+            margin-left: 8%; 
         }
         @include sm {
             background: url(../img/rent/najam.jpg) center no-repeat;
-            margin-bottom: 0px;
+        
+        }
+        @include sm{
+            width: 50%;
+            margin-left: 0%;
+            border-radius: 0px;
+           
         }
     }
 
@@ -1109,10 +1123,24 @@ h3{
          }
         @include xxs {
             background: url(../img/rent/taxi-m.jpg) center no-repeat;
-            background-attachment:cover;
+            background-size:cover;
+            width: 76%;
+            margin-left: 12%;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        @include xs{
+            width: 86%;
+            margin-left: 8%;
         }
         @include sm {
             background: url(../img/rent/taxi.jpg) center no-repeat;
+        }
+        @include sm {
+            width: 50%;
+            margin-left: 0%;
+            border-radius: 0px;
+           
         }
     }
    

@@ -66,7 +66,7 @@
                                     <li><h5><span class="fa fa-envelope-o"></span> EMAIL</h5></li>
                                      <li>
                                         <script TYPE="text/javascript">
-                                        emailE=('boatexcursionstonka@' + 'gmail.com')
+                                        emailE=('boatexcursiontonka@' + 'gmail.com')
                                         document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')            
                                             </script>
 
