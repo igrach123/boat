@@ -2,7 +2,7 @@
     <div class="container-fluid kontakti-wrapper no-padding">
         <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-xs hidden-sm">
                 <h4 class="text-center ">Pronađite Nas</h4>
 
                 <div id="mapid" class="map-bg">
@@ -57,6 +57,23 @@
                     <h3 class="bg-danger">Greška</h3>Pkušajte ponovno, ili refrešajte stranicu i formu.
                 </div>
             </div>
+            <div class="col-md-4 visible-xs visible-sm">
+                <h4 class="text-center ">Pronađite Nas</h4>
+
+                <div id="mapid" class="map-bg">
+                    <div class="row">
+                        <div class="col-xs-12 rovinj">
+                            <a href="https://goo.gl/maps/jTtigtuEDJu" target="_blank"></a>
+                        </div>
+                        <div class="col-xs-12 villas">
+                            <a href="https://goo.gl/maps/CipgQpZywKz" target="_blank"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
             <div class="col-md-4 contact-info">
                 <h4 class="text-center">
                     KONTAKT

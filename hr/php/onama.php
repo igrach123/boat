@@ -28,7 +28,7 @@
 
     <div class="row text-center video-bot">
         <div class="col-sm-6  onama-front">
-            <h3>Rovinj daily boat excursion</h3>
+            <h3>Rovinj - DNEVNI IZLET BRODOM</h3>
             <div class="embed-responsive embed-responsive-16by9 card-2">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/u0MV1lvbskA" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="col-sm-6  onama-front">
-            <h3>Rovinj Sunset boat excursion</h3>
+            <h3>Rovinj - IZLET ZALAZAK SUNCA</h3>
             <div class="embed-responsive embed-responsive-16by9 card-2">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/cndIO8L9A1w" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
