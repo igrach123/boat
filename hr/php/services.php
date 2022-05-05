@@ -36,7 +36,7 @@
                     <p>Dvije Sestrice otok</p>
                     <p>Sendvič, voće, piće</p>
 
-                    <p class="time">UTORAK, SRIJEDA, PETAK,NEDJELJA <br> 9:30h - 13:30h</p>
+                    <p class="time">PONEDJELJAK, SRIJEDA, PETAK <br> 9:30h - 13:30h</p>
 
 
                     <!-- Card action -->
@@ -57,7 +57,7 @@
                     <p>Lim Fjord & Gusarska špilja</p>
                     <p>Piće dobrodošlice</p>
                     <br>
-                    <p class="time">PONEDJELJAK, ČETVRTAK, SUBOTA <br> 13:30h - 18:00h</p>
+                    <p class="time">UTORAK, ČETVRTAK, SUBOTA <br> 13:30h - 18:00h</p>
                     <!-- Card action -->
                     <div class="">
                         <a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button"

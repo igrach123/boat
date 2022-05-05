@@ -37,7 +37,7 @@
 						<p>Dvije Sestrice Island</p>
 						<p>Sendwiches, fruit,drink</p>
 				
-						<p class="time">TUESDAY, WEDNESDAY, FRIDAY,SUNDAY <br> 9:30h - 13:30h</p>
+						<p class="time">MONDAY, WEDNESDAY, FRIDAY <br> 9:30h - 13:30h</p>
 						
 
 						<!-- Card action -->
@@ -57,7 +57,7 @@
 						<p>Lim Fjord & Pirate Cave</p>
 						<p>Welcome drink</p>
 						<br>
-						<p class="time">MONDAY, THURSDAY, SATURDAY <br> 13:30h - 18:00h</p>
+						<p class="time">TUESDAY, THURSDAY, SATURDAY <br> 13:30h - 18:00h</p>
 							<!-- Card action -->
 						<div class="btn-services">
 					    	<a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-bike">More <span class="fa fa-angle-right"></span></a>

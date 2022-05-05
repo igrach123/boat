@@ -16,8 +16,8 @@
                 <br> <br>
                 <b>Uživajte s nama.</b>
             </p>
-            <hr> 
-            <p class="text-muted"><b>CIJENA :</b>  ODRASLI <span class="badge badge-info">200,00 kn </span>  / DJECA <span class="badge badge-info">100,00 kn</span> </p>
+          
+            
       <div class="pmd-card-actions col-xs-6">
         <div class="sharethis-inline-share-buttons"></div>
      </div>  

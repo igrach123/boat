@@ -14,8 +14,8 @@
             <p class="text-muted"> Panoramska vožnja brodom oko staroga grada i Rovinjskih otoka sa zalaskom sunca. Tijekom izleta česti susreti sa radoznalim i zaigranim delfinima.
             Povratkom prema luci doživjet ćete romantičnu i nezaboravnu sliku grada Rovinja noću.
             </p>
-            <hr>
-        <p class="text-muted"><b>CIJENA :</b>  ODRASLI <span class="badge badge-info">100,00 kn </span>  / DJECA <span class="badge badge-info">50,00 kn</span> </p>
+           
+
 
       <div class="pmd-card-actions col-xs-6">
          <div class="sharethis-inline-share-buttons"></div>

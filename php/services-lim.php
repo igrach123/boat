@@ -15,8 +15,8 @@
                 <br> <br>
                 <b>Departure from parking Valdibora around 13:00h, and return to Rovinj in the afternoon.</b>
             </p>
-            <hr> 
-            <p class="text-muted"><b>PRICE</b>  ADULTS <span class="badge badge-info">200,00 kn </span>  KIDS <span class="badge badge-info">100,00 kn</span> </p>
+      
+
       <div class="pmd-card-actions col-xs-6">
         <div class="sharethis-inline-share-buttons"></div>
      </div>  

@@ -16,8 +16,8 @@
                 On the drive back to the harbour you will experience the romantic and unforgettable view of Rovinj at night.
 
             </p>
-            <hr>
-        <p class="text-muted"><b>PRICE</b>  ADULTS <span class="badge badge-info">100,00 kn </span>  KIDS <span class="badge badge-info">50,00 kn</span> </p>
+           
+
 
       <div class="pmd-card-actions col-xs-6">
          <div class="sharethis-inline-share-buttons"></div>
