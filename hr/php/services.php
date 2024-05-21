@@ -5,7 +5,7 @@
         <div class="row izleti-row">
 
             <!-- sunset&dolphins -->
-            <div class="col-sm-4  service-wrap  t-1-wrapper">
+            <div class="col-sm-3  service-wrap  t-1-wrapper">
                 <div class="t-1 card-2" data-mh="my-group">
 
 
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <!-- island swimming -->
-            <div class="col-sm-4  service-wrap t-2-wrapper">
+            <div class="col-sm-3  service-wrap t-2-wrapper">
                 <div class="t-2 card-2" data-mh="my-group">
                     <h3 class="title">KUPANJE NA OTOCIMA</h3>
                     <br>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <!-- lim fjord -->
-            <div class="col-sm-4  service-wrap t-3-wrapper">
+            <div class="col-sm-3  service-wrap t-3-wrapper">
                 <div class="t-3 card-2" data-mh="my-group">
 
                     <h3 class="title">LIM FJORD</h3>
@@ -62,6 +62,23 @@
                     <div class="">
                         <a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button"
                             data-target="#services-bike">Više <span class="fa fa-angle-right"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3  service-wrap t-3-wrapper">
+                <div class="t-4 card-2" data-mh="my-group">
+
+                    <h3 class="title">JUTARNJE KUPANJE - GUMENJAK RAGUSA</h3>
+                    <br>
+                        <p>Rovinj panorama</p>
+					    <p>Lim Fjord & Gusarska špilja</p>
+						<p>Skipper</p>
+					
+					<p class="time text-uppercase">Villas Rubin u 09:00h <br> sjeverna luka Valdibora u 09:20h</p>
+                    <!-- Card action -->
+                    <div class="">
+                        <a href="#services-swimming" class="btn btn-primary " data-toggle="modal" role="button"
+                            data-target="#services-swimming">Više <span class="fa fa-angle-right"></span></a>
 
                     </div>
                 </div>

@@ -103,6 +103,7 @@
     <?php include "php/services-kno.php"; ?>
     <!-- lim -->
     <?php include "php/services-lim.php"; ?>
+    <?php include "php/services-swimming.php"; ?>
 
     <!-- end of services -->
     <?php include "php/rent.php" ?>

@@ -7,7 +7,7 @@
 			<div class="row izleti-row">
 
 			<!-- sunset&dolphins -->
-				<div class="col-sm-4  service-wrap  t-1-wrapper" >
+				<div class="col-sm-3  service-wrap  t-1-wrapper" >
 					<div class="t-1 card-2" data-mh="my-group">
 							
 						
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 				<!-- island swimming -->
-				<div class="col-sm-4  service-wrap t-2-wrapper" >
+				<div class="col-sm-3  service-wrap t-2-wrapper" >
 					<div class="t-2 card-2" data-mh="my-group">
 						<h3 class="title">ISLANDS SWIMMING</h3>
 						<br>
@@ -47,20 +47,40 @@
 						</div>
 					</div>
 				</div>
+				
 				<!-- lim fjord -->
-				<div class="col-sm-4  service-wrap t-3-wrapper" >
+				<div class="col-sm-3  service-wrap t-3-wrapper" >
 					<div class="t-3 card-2" data-mh="my-group">
 						
 						<h3 class="title">LIM FJORD</h3>
 						<br>
 						<p>Rovinj panorama</p>
 						<p>Lim Fjord & Pirate Cave</p>
-						<p>Welcome drink</p>
+						<p>Welcome drink </p>
 						<br>
-						<p class="time">TUESDAY, THURSDAY, SATURDAY <br> 13:30h - 18:00h</p>
+							<p class="time">TUESDAY, THURSDAY, SATURDAY <br> 13:30h - 18:00h</p>
+						
 							<!-- Card action -->
 						<div class="btn-services">
 					    	<a href="#services-bike" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-bike">More <span class="fa fa-angle-right"></span></a>
+					    	
+					    </div>
+					</div>
+				</div>
+				<!-- MORNING SWIMMING TOUR WITH SPEEDBOAT -->
+				<div class="col-sm-3  service-wrap t-3-wrapper" >
+					<div class="t-4 card-2" data-mh="my-group">
+						
+						<h3 class="title">MORNING SWIMMING TOUR WITH SPEEDBOAT</h3>
+						<br>
+						<p>Rovinj panorama</p>
+						<p>Lim Fjord & Pirate Cave</p>
+						<p>Skipper</p>
+						<br>
+					<p class="time text-uppercase">Villas Rubin at 09:00h <br> north port Valdibora at 09:20h</p>
+							<!-- Card action -->
+						<div class="btn-services">
+					    	<a href="#services-swimming" class="btn btn-primary " data-toggle="modal" role="button" data-target="#services-swimming">More <span class="fa fa-angle-right"></span></a>
 					    	
 					    </div>
 					</div>
