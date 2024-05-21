@@ -8,6 +8,36 @@
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
                                 <div id="bikes">
+                                       <!-- nove dodao 2024 -->
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/1a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/1am.jpg" data-src="../img/gallery/1am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/2a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/2am.jpg" data-src="../img/gallery/2am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/3a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/3am.jpg" data-src="../img/gallery/3am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/4a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/4am.jpg" data-src="../img/gallery/4am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/5a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/5am.jpg" data-src="../img/gallery/5am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/6a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/6am.jpg" data-src="../img/gallery/6am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                    <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
+                                            <a href="../img/gallery/7a.jpg" title="inflatable boat">
+                                        <img src="../img/gallery/7am.jpg" data-src="../img/gallery/7am.jpg" class="img img-responsive " alt="inflatable boat"></a>
+                                    </div>
+                                   <!-- nove dodao 2024 -->
                                     <div class="imgwrapper botmargin card-2 wow fadeInUp"  data-wow-delay="0.5s">
                                             <a href="../img/gallery/1.jpg" title="Gumenjak">
                                         <img src="../img/gallery/1m.jpg" data-src="../img/gallery/1m.jpg" class="img img-responsive img-rounded " alt="Gumenjak"></a>

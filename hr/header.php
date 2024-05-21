@@ -60,7 +60,7 @@
     <div class="container">
         <div class="text-center align-items-center">
 
-            <h1 class="hidden-xs">BOAT EXCURSIONS <br> <br>
+            <h1 class="hidden-xs">BOAT EXCURSIONS <br>
                 <span class="small-premanutra hidden-xs">TONKA </span></h1>
 
             <div class="animated-arrow-down">

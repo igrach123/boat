@@ -31,10 +31,10 @@
             </thead>
             <tbody>
               <tr>     
-                <td>750,00 HRK</td>
-                <td>1500,00 HRK</td>
-                <td>2250,00 HRK</td>
-                <td>3750,00 HRK</td>
+                <td>100 €</td>
+                <td>200 €</td>
+                <td>300 €</td>
+                <td>500 €</td>
               
               </tr>
             </tbody>

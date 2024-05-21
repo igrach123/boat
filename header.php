@@ -18,13 +18,13 @@
                       <ul class=" nav navbar-nav navbar-left">
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home" class="scroll ">HOME</a></li>
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services" class="scroll">EXCURSIONS</a></li>
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">RENT</a></li> 
+                           
                                 
                        </ul>
                        <ul class=" nav navbar-nav navbar-right">
                        
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">TAXI BOAT</a></li> 
-                            
+                            <!-- <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">TAXI BOAT</a></li>  -->
+                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">RENT</a></li> 
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">CONTACT</a></li>
                             <li id="lang-id">
                                 <div class="dropdown language">
