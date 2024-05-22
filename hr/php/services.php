@@ -79,7 +79,6 @@
                     <div class="">
                         <a href="#services-swimming" class="btn btn-primary " data-toggle="modal" role="button"
                             data-target="#services-swimming">Više <span class="fa fa-angle-right"></span></a>
-
                     </div>
                 </div>
             </div>
