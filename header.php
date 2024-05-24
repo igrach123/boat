@@ -47,7 +47,7 @@
          <!--video backgorund-->
            <div class="overlay hidden-xs"></div>
               <video class="hidden-xs hidden-sm" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="video/sunset.mp4" type="video/mp4">
+                <source src="video/sunset.mp4" type="video/mp4" loading="lazy">
               </video>
               <div class="container">
                 <div class="text-center align-items-center">
