@@ -13,7 +13,7 @@
                     <br>
                     <p>Rovinj panorama i zalazak sunca</p>
                     <p>Promatraj delfine</p>
-                    <p>Večerno opuštanje</p>
+                    <p>Večernje opuštanje</p>
                     <br>
                     <p class="time">SVAKI DAN</p>
 
