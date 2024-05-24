@@ -20,42 +20,26 @@
 
             <div class="col-md-4">
                 <h4 class="text-center ">Pošaljite nam upit!</h4>
-
-                <form role="form" method="post" id="reused_form">
-                    <div class="form-group">
-                        <input placeholder="Ime" type="text" class="form-control" id="name" name="name" required
-                            maxlength="50">
-                    </div>
-                    <div class="form-group">
-                        <input placeholder="Email" type="email" class="form-control" id="email" name="email" required
-                            maxlength="50">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" type="textarea" name="message" id="message"
-                            placeholder="Poruka ovdje" maxlength="6000" rows="5"></textarea>
-                    </div>
-                    <div class="row" style="margin-bottom:30px;">
-                        <div class="col-sm-5">
-                            <img src="captcha.php" id="captcha_image" />
-                            <br />
-                            <a id="captcha_reload" href="#">reload</a>
+                 <form role="form" method="post" id="reused_form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" class="form-control" id="name" name="name" required maxlength="50">
                         </div>
-                        <div class="col-sm-6">
-                            <input placeholder="Unesite kod s slike ovdje" type="text" class="form-control" required
-                                id="captcha" name="captcha">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" id="email" name="email" required maxlength="50">
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn  btn-default" id="btnContactUs">POŠALJI</button>
-                    </div>
+                        <div class="form-group">
+                            <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Poruka!" maxlength="6000" rows="7"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label id="captcha-label"></label>
+                            <input type="text" class="form-control" id="captcha" name="captcha" placeholder="Rješite CAPTCHA" required>
+                            <input type="hidden" id="captcha-solution">
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-default">POŠALJI</button>
+                    </form>
 
-                </form>
-                <div id="success_message" style="width:100%; height:100%; display:none; ">
-                    <h3 class="bg-success">Poruka uspješno poslana. <br> Javit će mo vam se u što kraćem roku! </h3>
-                </div>
-                <div id="error_message" style="width:100%; height:100%; display:none; ">
-                    <h3 class="bg-danger">Greška</h3>"Pokušajte ponovno, ili osvježite stranicu i formu." corrected from "Pkušajte ponovno, ili refrešajte stranicu i formu."
-                </div>
+                
+                
             </div>
             <div class="col-md-4 visible-xs visible-sm">
                 <h4 class="text-center ">Pronađite Nas</h4>

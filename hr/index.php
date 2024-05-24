@@ -97,7 +97,18 @@
         <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="form.js"></script>
+           </script>
+           <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+            <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "6i9Jbl-ZN98YNJRTw",
+                });
+            })();
+            </script>
+      <script src="email.js"></script>
         
         <script src="../js/main-js-backup-min.js"></script>
 
