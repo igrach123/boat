@@ -8,17 +8,13 @@
         <div class="col-sm-6 d  onama-front">
             <h3>O NAMA</h3>
             <p class=" text-justify text-muted">
-                Boat Excursions Tonka je obiteljski obrt koji se bavi prijevozom putnika na moru. U našem obrtu imamo 2
-                plovila: motorni brod „Tonka“ kapaciteta 46 osoba i Speed boat „Tonka“ (brzi gumenjak) za 12 osoba.
-                Smješteni smo u Rovinjskoj sjevernoj luci „Valdibora“ i u turističkom naselju „Vilas Rubin“.
-
-
-           
-                Enio (kapetan, mornar i vlasnik) pobrinut će se da na našim izletima uživate u ljepotama Rovinjskog
-                arhipelaga. Marija (prodavač izleta i kuharica) brine da okusite naše ukusne specijalitete. Lara i Ville
-                brinu za internet booking, socijalne medije i izlete na Speed boat „Tonka“. Samanta, naša glavna
-                prodavačica karata i najmlađa članica. Kapetan Mauro brine za sigurnu vožnju i nezaboravne trenutke na
-                našim izletima. <br> <br>
+                Boat Excursions Tonka je obiteljski obrt koji se bavi prijevozom putnika na moru. U našem obrtu
+                imamo 3 plovila: motorni brod „Tonka“ kapaciteta 46 osoba i 2 glisera (brzi gumenjak), svaki za
+                12 osoba. Smješteni smo u Rovinjskoj sjevernoj luci „Valdibora“ i u turističkom naselju „Vilas
+                Rubin“. Enio (kapetan, mornar i vlasnik) pobrinut će se da na našim izletima uživate u ljepotama
+                Rovinjskog arhipelaga. Mirjana (supruga, prodavač izleta i organizatorica izleta gliserom) brine
+                da doživite naše izlete gliserima. Lara (sestra) brine za internet booking, socijalne medije i izlete
+                na brodu „Tonka“. Lucija (kćerka), naša glavna prodavačica karata i najmlađa članica. <br> <br>
                 <strong>Pridružite nam se i uživajte sa nama!</strong>
             </p>
         </div>
