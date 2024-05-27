@@ -66,12 +66,12 @@
                     <li><a href="https://goo.gl/maps/jTtigtuEDJu" target="_blank">Rovinj's northern port "Valdibora"</a></li>
                     <li><a href="https://goo.gl/maps/CipgQpZywKz" target="_blank">The tourist resort "Vilas Rubin"</a></li>
                     <li><b><small class="text-muted">CLICK FOR WAYPOINT</small></b></li>
-                    <hr>
+                    <hr class="hidden-xs">
                     <li>
                         <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP</h5>
                     </li>
                     <li><a href="tel:+385 (0)98441140"> +385 (0)98 441 140</a></li>
-                    <hr>
+                    <hr class="hidden-xs">
                     <li>
                         <h5><span class="fa fa-envelope-o"></span> EMAIL</h5>
                     </li>
@@ -84,7 +84,7 @@
                             <em>Email address protected by JavaScript.<br>Please enable JavaScript to contact me.</em>
                         </noscript>
                     </li>
-                    <hr>
+                    <hr class="hidden-xs">
                     <li>
                         <h5>FOLLOW US</h5>
                     </li>

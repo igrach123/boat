@@ -1732,7 +1732,14 @@ header {
   .contact-info {
     hr {
       margin-left: 0%;
-      width: 60%;
+      @include xxs {
+        width: 60%;
+        margin-left: 20%;
+      }
+      @include md {
+        width: 60%;
+        margin-left: 0%;
+      }
     }
   }
   .contact-list {
